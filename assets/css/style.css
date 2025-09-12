@@ -3,13 +3,33 @@ body {
   line-height: 1.6;
 }
 
+/* Header / menu bar */
 .site-header {
-  background: none;      /* remove blue background */
-  border: none;          /* remove bottom border line */
-  padding: 1rem 2rem;    /* adjust vertical spacing */
+  background: white;      /* clean background */
+  border: none;           /* no border */
+  padding: 0.5rem 2rem;   /* vertical spacing */
 }
 
-nav a:hover {
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 60px;           /* logo height */
+  width: auto;            /* keep proportions */
+}
+
+.site-nav a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.site-nav a:hover {
   text-decoration: underline;
 }
 
@@ -17,17 +37,16 @@ main {
   text-align: justify;
 }
 
-/* Shrink the page title */
+/* Page title */
 h1 {
   font-size: 2.0rem; /* adjust as desired */
 }
 
-/* Shrink section headings */
+/* Section headings */
 h2 {
-  font-size: 1.5rem; /* adjust */
+  font-size: 1.5rem;
 }
 
-/* If you want even smaller for subsection titles */
 h3 {
   font-size: 1.2rem;
 }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  </head>
+  <body>
+    <header style="background:#2c3e50; padding:10px;">
+      <nav style="max-width:900px; margin:0 auto; display:flex; gap:20px;">
+        <a href="{{ "/" | relative_url }}" style="color:white; text-decoration:none;">Home</a>
+        <a href="{{ "/research.html" | relative_url }}" style="color:white; text-decoration:none;">Research</a>
+        <a href="{{ "/publications.html" | relative_url }}" style="color:white; text-decoration:none;">Publications</a>
+        <a href="{{ "/people.html" | relative_url }}" style="color:white; text-decoration:none;">People</a>
+        <a href="{{ "/contact.html" | relative_url }}" style="color:white; text-decoration:none;">Contact</a>
+      </nav>
+    </header>
+
+    <main style="max-width:900px; margin:40px auto; font-family:Arial, sans-serif;">
+      {{ content }}
+    </main>
+  </body>
+</html>

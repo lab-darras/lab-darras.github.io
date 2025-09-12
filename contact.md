@@ -5,8 +5,8 @@ title: Contact
 
 # Contact
 
-Darras Lab  
+Hugo Darras
 Johannes Gutenberg University Mainz  
-Department of Behavioural Ecology & Social Evolution  
+Institute of Organismic and Molecular Evolution
 
 📧 hugo.darras@uni-mainz.de  

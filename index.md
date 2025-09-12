@@ -3,12 +3,5 @@ layout: default
 title: Home
 ---
 
-# Welcome to the Darras Lab
-
-We study the genetics of ant societies, reproduction, and sex determination  
-at *Johannes Gutenberg University Mainz*.
-
-- [Research](research.html)  
-- [Publications](publications.html)  
-- [People](people.html)  
-- [Contact](contact.html)  
+# Genetic Systems and Social Evolution
+Welcome to our group. We study the evolution of sex and genetic systems in ants at Johannes Gutenberg University Mainz, Germany.

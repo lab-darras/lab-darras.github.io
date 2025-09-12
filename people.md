@@ -1,10 +1,15 @@
 ---
 layout: page
 title: People
-permalink: /people/
 ---
 
-- Dr. Hugo Darras - Group Leader
-- Chuanxin Yu - PhD student
-- Lena Fröhlich - Master student
-- Emilia Maria Romero Pineda - Master student
+# People
+
+**Hugo Darras** – Principal Investigator  
+
+**PhD students**  
+- Chuanxin Yu
+  
+**Master students**  
+- Lena Fröhlich 
+- Emilia Maria Romero Pineda 

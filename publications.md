@@ -5,12 +5,15 @@ title: Publications
 
 # Publications
 
-![Publication picture]({{ "/assets/images/CB.jpg" | relative_url }})
-![Publication picture]({{ "/assets/images/MEC.jpg" | relative_url }})
+<div style="display:flex; gap:20px; align-items:center;">
+  <img src="{{ '/assets/images/CB.jpg' | relative_url }}" alt="Publication picture" style="height:250px;">
+  <img src="{{ '/assets/images/MEC.jpg' | relative_url }}" alt="Publication picture" style="height:250px;">
+</div>
 
-- Darras H., Pan Q. 2024. Clonal ants reveal a potentially hidden meiotic feature. **_Trends in Genetics_**, 40(11).  
-- Pan Q. (†), Darras H. (†), Keller L. 2024. LncRNA gene ANTSR coordinates complementary sex determination in the Argentine ant. **_Science Advances_**, 10(22).  
-- Darras H., Berney C., Hasin S., Drescher J., Feldhaar H., Keller L. 2023. Obligate chimerism in male yellow crazy ants. **_Science_**, 380(6640): 55-58.  - Tseng S.-P. (†), Darras H. (†), Hsu P.-W., Yoshimura T., Lee C.-Y., Wetterer J.K., Keller L., Yang C.C.S. 2022. Genetic analysis reveals the putative native range and widespread double-clonal reproduction in the invasive *longhorn crazy ant*. **_Molecular Ecology_**, 32(5).  
+Darras H., Pan Q. 2024. Clonal ants reveal a potentially hidden meiotic feature. **_Trends in Genetics_**, 40(11).    
+Pan Q. (\*), Darras H. (\*), Keller L. 2024. LncRNA gene ANTSR coordinates complementary sex determination in the Argentine ant. **_Science Advances_**, 10(22). 
+Darras H., Berney C., Hasin S., Drescher J., Feldhaar H., Keller L. 2023. Obligate chimerism in male yellow crazy ants. **_Science_**, 380(6640): 55-58.  
+Tseng S.-P. (†), Darras H. (†), Hsu P.-W., Yoshimura T., Lee C.-Y., Wetterer J.K., Keller L., Yang C.C.S. 2022. Genetic analysis reveals the putative native range and widespread double-clonal reproduction in the invasive *longhorn crazy ant*. **_Molecular Ecology_**, 32(5).  
 - Darras H., de Souza Araujo N., Baudry L., Guiglielmoni N., Lorite P., Marbouty M., Rodriguez F., Arkhipova I., Koszul R., Flot J.F., Aron S. 2022. Chromosome-level genome assembly and annotation of two lineages of the ant *Cataglyphis hispanica*: stepping stones towards genomic studies of hybridogenesis and thermal adaptation in desert ants. **_PCI Genomics_**, 2(e40).  
 - Bujan J., Charavel E., Bates O.K., Gippet J.M.W., Darras H., Lebas C., Bertelsmeier C. 2021. Increased acclimation ability accompanies a thermal niche shift of a recent invasion. **_Journal of Animal Ecology_**, 90(2): 483-491.  
 - Pan Q., Feron R., Jouanno E., Darras H., Herpin A., Koop B., Rondeau E., Goetz F.W., Larson W.A., Bernatchez L., *et al.* 2021. The rise and fall of the ancient northern pike master sex determining gene. **_eLife_**, 10: e62858.  

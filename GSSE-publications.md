@@ -3,7 +3,7 @@ layout: default
 title: Publications
 ---
 
-# Publications
+# Darras Lab publications
 
 <div style="display:flex; gap:20px; align-items:center;">
   <img src="{{ '/assets/images/CB.jpg' | relative_url }}" alt="Publication picture" style="height:250px;">

@@ -35,26 +35,29 @@ p {
   justify-content: space-between;
 }
 
-
 .logo-img {
   height: 48px;
   width: auto;
 }
 
-
+/* Navigation */
 nav a {
-  font-size: 1.15em;  /* slightly bigger */
-  text-shadow: 0 -1px 1px rgba(0,0,0,0.15);  /* light shadow above */
+  font-size: 1.15em;  
+  color: #333;                      /* clean dark gray */
+  text-decoration: none;            /* no underline */
+  margin: 0 12px;                   /* spacing between items */
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.12); /* very light top shadow */
 }
 
 nav a:hover {
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);  /* slightly stronger shadow on hover */
+  color: #000;                      /* slightly darker on hover */
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.2); /* slightly stronger top shadow */
 }
 
 /* Active link highlight (optional) */
 .site-nav a.active {
-  color: #0077cc;
-  text-decoration: underline;
+  color: #000;
+  font-weight: bold;
 }
 
 /* Footer */
@@ -65,5 +68,3 @@ nav a:hover {
   font-size: 0.9rem;
   color: #666;
 }
-
-

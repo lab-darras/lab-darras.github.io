@@ -20,15 +20,15 @@ p {
 .site-header {
   background: #fff;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* subtle shadow like SLED */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* subtle header shadow */
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
 .header-inner {
-  max-width: 960px;   /* keep nav + logo centered, not stretched to edges */
-  margin: 0 auto;     /* center the container */
+  max-width: 960px;   /* keep nav + logo centered */
+  margin: 0 auto;
   padding: 0.75rem 1.5rem;
   display: flex;
   align-items: center;
@@ -43,15 +43,14 @@ p {
 /* Navigation */
 nav a {
   font-size: 1.15em;  
-  color: #333;                      /* clean dark gray */
-  text-decoration: none;            /* no underline */
-  margin: 0 12px;                   /* spacing between items */
-  text-shadow: 0 -1px 1px rgba(0,0,0,0.12); /* very light top shadow */
+  color: #333;                 /* clean dark gray */
+  text-decoration: none;       /* no underline */
+  margin: 0 12px;              /* spacing between items */
 }
 
 nav a:hover {
-  color: #000;                      /* slightly darker on hover */
-  text-shadow: 0 -1px 1px rgba(0,0,0,0.2); /* slightly stronger top shadow */
+  color: #000;                 /* slightly darker on hover */
+  text-decoration: underline;  /* subtle feedback */
 }
 
 /* Active link highlight (optional) */

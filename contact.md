@@ -5,8 +5,12 @@ title: Contact
 
 # Contact
 
-Hugo Darras
-Johannes Gutenberg University Mainz  
-Institute of Organismic and Molecular Evolution
+Miya (Qiaowei) Pan
+Institute of Molecular Biology 
+Mainz, Germany
+📧 Q.Pan@imb-mainz.de
 
+Hugo Darras
+Johannes Gutenberg University  
+Mainz, Germany
 📧 hugo.darras@uni-mainz.de  

@@ -54,6 +54,6 @@ Eyer P.A., Leniaud L., Darras H., Aron S. 2013. Hybridogenesis through thelytoko
 
 Leniaud L. (‡), Darras H. (‡), Boulay R., Aron S. 2012. Social Hybridogenesis in the Clonal Ant *Cataglyphis hispanica*. **_Current Biology_**, 22(13): 1188-1193.  
 
-<div style="height:30px;"></div>
+<div style="height:15px;"></div>
 
 ‡ equal contributions

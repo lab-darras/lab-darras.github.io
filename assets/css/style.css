@@ -5,6 +5,10 @@ body {
   line-height: 1.6;
 }
 
+p {
+  text-align: justify;
+}
+
 /* Container for content */
 .container {
   max-width: 960px;

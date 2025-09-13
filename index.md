@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Welcome to the website of the Haplodiploidy (Pan) and Genetic Systems (Darras) labs.
+# Welcome to the Haplodiploidy and Genetic systems labs!
 We are two closely collaborating research groups based in Mainz, Germany, studying the evolution of sex determination and genetic systems in ants, bees, wasps, and other haplodiploid organisms. Our labs combine complementary expertise through collaboration, yet each maintains distinct research directions and identity.
 
 <div style="display:flex; gap:30px; justify-content:center; max-width:100%;">

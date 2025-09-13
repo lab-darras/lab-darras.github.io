@@ -16,16 +16,21 @@ body {
 .site-header {
   background: #fff;
   border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* subtle shadow like SLED */
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
 .header-inner {
+  max-width: 960px;   /* keep nav + logo centered, not stretched to edges */
+  margin: 0 auto;     /* center the container */
+  padding: 0.75rem 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 
 .logo-img {
   height: 48px;
@@ -59,3 +64,5 @@ body {
   font-size: 0.9rem;
   color: #666;
 }
+
+

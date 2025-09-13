@@ -3,18 +3,24 @@ layout: default
 title: Research
 ---
 
-# Haplodiploidy
+## Haplodiploidy
 
-Beetles and wasps
+Beetles and wasps.
 
+<div class="container" style="display:flex; gap:2%; justify-content:space-between;">
+  <img src="{{ '/assets/images/6962841056_04bd7b4b6f_c.jpg' | relative_url }}" alt="Research picture" style="width:23.5%; height:auto; object-fit:cover;">
+  <img src="{{ '/assets/images/14831812109_248e71f584_c.jpg' | relative_url }}" alt="Research picture" style="width:23.5%; height:auto; object-fit:cover;">
+  <img src="{{ '/assets/images/7294863010_93d13923bb_c.jpg' | relative_url }}" alt="Research picture" style="width:23.5%; height:auto; object-fit:cover;">
+  <img src="{{ '/assets/images/4837265100_7ff68cd6f6_c.jpg' | relative_url }}" alt="Research picture" style="width:23.5%; height:auto; object-fit:cover;">
+</div>
 
+<div style="height:40px;"></div>
 
-
-# Publications
+## Publications
 
 Darras H., Pan Q. 2024. Clonal ants reveal a potentially hidden meiotic feature. **_Trends in Genetics_**, 40(11).  
 
-Pan Q. (†), Darras H. (†), Keller L. 2024. LncRNA gene ANTSR coordinates complementary sex determination in the Argentine ant. **_Science Advances_**, 10(22): adp1532.  
+Pan Q. (‡), Darras H. (‡), Keller L. 2024. LncRNA gene ANTSR coordinates complementary sex determination in the Argentine ant. **_Science Advances_**, 10(22): adp1532.  
 
 Adolfi M.C., Depincé A., Wen M., Pan Q., Herpin A. 2023. Development of ovaries and sex change in fish: bringing potential into action. **_Sexual Development_**, 17(2–3): 84–98.  
 
@@ -38,5 +44,6 @@ Wen M., Feron R., Pan Q., Guiguen Y., Jouanno E., *et al.* 2020. Sex chromosome 
 
 Pan Q., Feron R., Yano A., Guyomard R., Jouanno E., *et al.* 2019. Identification of the master sex-determining gene in northern pike (*Esox lucius*) reveals restricted sex chromosome differentiation. **_PLoS Genetics_**, 15(8): e1008013.  
 
+<div style="height:15px;"></div>
+‡ equal contributions
 
-(†) These authors contributed equally to this study.

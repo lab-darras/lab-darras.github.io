@@ -33,6 +33,10 @@ body {
   text-decoration: underline;
 }
 
+.page-content p {
+  margin-bottom: 1.2rem;
+}
+
 main {
   text-align: justify;
 }

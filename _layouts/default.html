@@ -10,9 +10,15 @@
   <!-- Header -->
   <header class="site-header">
     <div class="header-inner">
-      <a href="{{ '/' | relative_url }}" class="logo">
-        <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }}" class="logo-img">
-      </a>
+     <div class="logo-group" style="display:flex; gap:10px; align-items:center;">
+  <a href="{{ '/' | relative_url }}">
+    <img src="{{ '/assets/images/GSSElogo.png' | relative_url }}" alt="GSSE logo" style="height:30px;">
+  </a>
+  <a href="{{ '/' | relative_url }}">
+    <img src="{{ '/assets/images/1n2nlogo.png' | relative_url }}" alt="1n2n logo" style="height:30px;">
+  </a>
+</div>
+      
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/people.html' | relative_url }}">People</a>

@@ -3,11 +3,56 @@ layout: default
 title: Research
 ---
 
-# Evolution of genetic systems
+# Evolution of genetic systems and conflicts
 
-Sexual reproduction is a ubiquitous trait of eukaryotes. Yet, alternative reproductive systems, such as female clonality, male clonality, and hemi-clonal reproduction, have repeatedly evolved in diverse taxa. Our research aims to understand the proximate and ultimate mechanisms underlying transitions between genetic systems in the highly diverse and ecologically successful ant family. Ant societies are characterized by a reproductive division of labor between queen and worker females and a haplo-diploid sex-determination system. In most species, females are produced by sexual reproduction and develop into queens or workers depending on environmental factors, while males develop from unfertilized, haploid eggs. Deviations from this canonical reproduction schema have, however, been documented in several ant genera. In some taxa, the genetic makeup of an egg determines its developmental fate: workers arise from hybridization between divergent sympatric lineages, whereas queens are always purebred individuals (social hybridogenesis). In some of these species, queens are clones of their mother, while males are clones of their father (double-clonality). We also recently discovered an extraordinary reproductive system in the yellow crazy ant, resulting in males carrying maternal and paternal genomes in different cells of their body (chimerism). We employ population genetic, genomic, and cytological approaches to understand how division of labor and haplo-diploidy fostered the repeated evolution of such unusual genetic systems. Our group currently works on the longhorn crazy ant (*Paratrechina longicornis*), the little fire ant (*Wasmannia auropunctata*), the yellow crazy ant (*Anoplolepis gracilipes*), the argentine ant (*Linepithema humile*), and desert ants of the genus *Cataglyphis*.
+Conflicts manifest at multiple biological levels, including genomes, cells, individuals, and societies, yet their long-term consequences remain poorly understood. Although diverse forms of conflict are increasingly documented, their genomic distribution and impact on genome architecture remain largely unexplored, as many conflicts are transient and difficult to study. Our goal is to investigate the diversity of genomic conflicts, the molecular innovations they generate, and their effects on genome evolution. We study conflicts in ant societies, where reproduction is unequally distributed between queens and workers. This division of labor has repeatedly produced extraordinary genetic systems, in which selfish lineages drive their carriers to develop as reproductive queens, while the worker caste arises only through hybridization with another lineage. We investigate the mechanisms underlying these hybrid systems using population genomic and molecular approaches, focusing on the ants *Paratrechina longicornis* and *Wasmannia auropunctata*, where queens and males belong to divergent clonal lineages; the ant *Anoplolepis gracilipes*, where males are chimeras carrying divergent genomes in different cells of their body; and *Cataglyphis* ants, where two queen lineages coexist within populations and must hybridize to produce workers. These unique systems provide  opportunities to study conflicts and investigate how they drive molecular and cellular innovations.
 
+<div style="display:flex; gap:20px; align-items:center;">
+  <img src="{{ '/assets/images/6962841056_04bd7b4b6f_c.jpg' | relative_url }}" alt="Publication picture" style="height:50px;">
+  <img src="{{ '/assets/images/14831812109_248e71f584_c.jpg' | relative_url }}" alt="Publication picture" style="height:50px;">
+  <img src="{{ '/assets/images/7294863010_93d13923bb_c.jpg' | relative_url }}" alt="Publication picture" style="height:50px;">
 
-# Genetic conflicts
+# publications
+(†) These authors contributed equally to this study.
 
-Conflicts are important drivers of evolutionary changes and manifest at multiple biological levels, including genomes, cells, individuals, and animal societies, yet their long-term evolutionary effects remain poorly understood. These conflicts are often transient and, therefore, challenging to study. A long-standing challenge of evolutionary genomics and medicine is identifying genes underlying such conflicts. Despite a growing body of evidence outlining various types of conflicts, the genomic distributions of these and their impacts on genomic architectures are still largely uncharted territories. An overarching aim of our research is to investigate the diversity of genomic conflicts within ant societies, identify the molecular innovations associated with these conflicts, and assess their impact on genome evolution and phenotypic variation, including caste determination in ants. 
+Darras H., Pan Q. 2024. Clonal ants reveal a potentially hidden meiotic feature. **_Trends in Genetics_**, 40(11).  
+
+Pan Q. (†U+2731), Darras H. (†U+2217), Keller L. 2024. LncRNA gene ANTSR coordinates complementary sex determination in the Argentine ant. **_Science Advances_**, 10(22).  
+
+Darras H., Berney C., Hasin S., Drescher J., Feldhaar H., Keller L. 2023. Obligate chimerism in male yellow crazy ants. **_Science_**, 380(6640): 55-58.  
+
+Tseng S.-P. (†), Darras H. (†), Hsu P.-W., Yoshimura T., Lee C.-Y., Wetterer J.K., Keller L., Yang C.C.S. 2022. Genetic analysis reveals the putative native range and widespread double-clonal reproduction in the invasive *longhorn crazy ant*. **_Molecular Ecology_**, 32(5).  
+
+Darras H., de Souza Araujo N., Baudry L., Guiglielmoni N., Lorite P., Marbouty M., Rodriguez F., Arkhipova I., Koszul R., Flot J.F., Aron S. 2022. Chromosome-level genome assembly and annotation of two lineages of the ant *Cataglyphis hispanica*: stepping stones towards genomic studies of hybridogenesis and thermal adaptation in desert ants. **_PCI Genomics_**, 2(e40).  
+
+Bujan J., Charavel E., Bates O.K., Gippet J.M.W., Darras H., Lebas C., Bertelsmeier C. 2021. Increased acclimation ability accompanies a thermal niche shift of a recent invasion. **_Journal of Animal Ecology_**, 90(2): 483-491.  
+
+Pan Q., Feron R., Jouanno E., Darras H., Herpin A., Koop B., Rondeau E., Goetz F.W., Larson W.A., Bernatchez L., *et al.* 2021. The rise and fall of the ancient northern pike master sex determining gene. **_eLife_**, 10: e62858.  
+
+Kuhn A. (†), Darras H. (†), Paknia O., Aron S. 2020. Repeated evolution of queen parthenogenesis and social hybridogenesis in *Cataglyphis* desert ants. **_Molecular Ecology_**, 29(3): 549-564.  
+
+Tseng S.-P., Darras H., Lee C.-Y., Yoshimura T., Keller L., Yang C.C.S. 2019. Isolation and characterization of novel microsatellite markers for a globally distributed invasive ant *Paratrechina longicornis* (Hymenoptera: Formicidae). **_European Journal of Entomology_**, 116: 253-257.  
+
+Darras H., Kuhn A., Aron S. 2019. Evolution of hybridogenetic lineages in *Cataglyphis* ants. **_Molecular Ecology_**, 28(12): 3073-3088.  
+
+Kuhn A. (†), Darras H. (†), Aron S. 2018. Phenotypic plasticity in an ant with strong caste-genotype association. **_Biology Letters_**, 14(1): 20170705.  
+
+Kuhn A., Bauman D., Darras H., Aron S. 2017. Sex-biased dispersal creates spatial genetic structure in a parthenogenetic ant with a dependent-lineage reproductive system. **_Heredity_**, 119(4): 207-213.  
+
+Norman V. (†), Darras H. (†), Tranter C., Aron S., Hughes W.O.H. 2016. Cryptic lineages hybridize for worker production in the harvester ant *Messor barbarus*. **_Biology Letters_**, 12(11): 20160542.  
+
+Darras H., Aron S. 2015. Introgression of mitochondrial DNA among lineages in a hybridogenetic ant. **_Biology Letters_**, 11(2): 20140971.  
+
+Darras H., Kuhn A., Aron S. 2014. Genetic determination of female castes in a hybridogenetic desert ant. **_Journal of Evolutionary Biology_**, 27(10): 2265-2271.  
+
+Darras H., Leniaud L., Aron S. 2013. Large-scale distribution of hybridogenetic lineages in a Spanish desert ant. **_Proceedings of the Royal Society B_**, 281(1774): 20132396.  
+
+Eyer P.A., Leniaud L., Darras H., Aron S. 2013. Hybridogenesis through thelytokous parthenogenesis in two *Cataglyphis* desert ants. **_Molecular Ecology_**, 22(4): 947-955.  
+
+Leniaud L. (†), Darras H. (†), Boulay R., Aron S. 2012. Social Hybridogenesis in the Clonal Ant *Cataglyphis hispanica*. **_Current Biology_**, 22(13): 1188-1193.  
+
+<div style="display:flex; gap:20px; align-items:center;">
+  <img src="{{ '/assets/images/CB.jpg' | relative_url }}" alt="Publication picture" style="height:50px;">
+  <img src="{{ '/assets/images/MEC.jpg' | relative_url }}" alt="Publication picture" style="height:50px;">
+</div>
+

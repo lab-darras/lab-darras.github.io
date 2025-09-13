@@ -14,7 +14,7 @@ Conflicts manifest at multiple biological levels, including genomes, cells, indi
   <img src="{{ '/assets/images/4837265100_7ff68cd6f6_c.jpg' | relative_url }}" alt="Research picture" style="width:23.5%; height:auto; object-fit:cover;">
 </div>
 
-<div style="height:70px;"></div>
+<div style="height:40px;"></div>
 
 ## Publications
 

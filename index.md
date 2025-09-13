@@ -6,6 +6,8 @@ title: Home
 # Welcome to the Haplodiploidy and Genetic systems labs!
 We are two closely collaborating research groups based in Mainz, Germany, studying the evolution of sex determination and genetic systems in ants, bees, wasps, and other haplodiploid organisms. Our labs combine complementary expertise through collaboration, yet each maintains distinct research directions and identity.
 
+<div style="height:40px;"></div>
+
 <div style="display:flex; gap:30px; justify-content:center; max-width:100%;">
   <img src="{{ '/assets/images/1n2nlogo.png' | relative_url }}" 
        alt="1n2n logo" style="flex:1; max-width:50%; height:auto;">

@@ -16,11 +16,11 @@ Conflicts manifest at multiple biological levels, including genomes, cells, indi
 ---
 
 ## publications
-(†) These authors contributed equally to this study.
+(†✱) These authors contributed equally to this study.
 
 Darras H., Pan Q. 2024. Clonal ants reveal a potentially hidden meiotic feature. **_Trends in Genetics_**, 40(11).  
 
-Pan Q. (†U+2731), Darras H. (†U+2217), Keller L. 2024. LncRNA gene ANTSR coordinates complementary sex determination in the Argentine ant. **_Science Advances_**, 10(22).  
+Pan Q. (†✱), Darras H. (†✱), Keller L. 2024. LncRNA gene ANTSR coordinates complementary sex determination in the Argentine ant. **_Science Advances_**, 10(22).  
 
 Darras H., Berney C., Hasin S., Drescher J., Feldhaar H., Keller L. 2023. Obligate chimerism in male yellow crazy ants. **_Science_**, 380(6640): 55-58.  
 

@@ -13,6 +13,8 @@ Conflicts manifest at multiple biological levels, including genomes, cells, indi
   <img src="{{ '/assets/images/7294863010_93d13923bb_c.jpg' | relative_url }}" alt="Publication picture" style="height:250px;">
 </div>
 
+---
+
 ## publications
 (†) These authors contributed equally to this study.
 

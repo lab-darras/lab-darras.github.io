@@ -3,8 +3,6 @@ layout: default
 title: People
 ---
 
-## Meet the team
-
 <style>
 /* Layout */
 .group-leaders {

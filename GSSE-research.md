@@ -17,7 +17,6 @@ Conflicts manifest at multiple biological levels, including genomes, cells, indi
 <div style="height:40px;"></div>
 
 <div class="team-banner">
-  <h2>Publications</h2>
   <p><a href="{{ '/publications.html#darras' | relative_url }}">See Darras Lab publications →</a></p>
 </div>
 

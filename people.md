@@ -89,10 +89,43 @@ title: People
 .person a:hover {
   text-decoration: underline;
 }
+
+/* Filter buttons */
+#people-filter {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#people-filter button {
+  margin: 0 6px;
+  padding: 8px 16px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+  border-radius: 4px 4px 0 0;
+  transition: background 0.2s, border-color 0.2s;
+}
+#people-filter button:hover {
+  background: #eaeaea;
+}
+#people-filter button.active {
+  background: #fff;
+  border: 1px solid #0077cc;
+  border-bottom: 2px solid #fff;
+  color: #0077cc;
+  font-weight: 600;
+}
 </style>
 
+<!-- Filter buttons -->
+<div id="people-filter">
+  <button class="active" onclick="filterPeople('all', this)">All</button>
+  <button onclick="filterPeople('pan', this)">Pan Lab</button>
+  <button onclick="filterPeople('darras', this)">Darras Lab</button>
+</div>
+
 <div class="group-leaders">
-  <div class="person">
+  <div class="person" data-lab="pan">
     <img src="{{ '/assets/images/miya-pan.png' | relative_url }}" alt="Miya Pan">
     <h3>Miya Pan</h3>
     <p class="role">Principal Investigator</p>
@@ -100,7 +133,7 @@ title: People
     <p class="institute">IMB Mainz</p>
     <p><a href="mailto:miya.pan@imb.de">miya.pan@imb.de</a></p>
   </div>
-  <div class="person">
+  <div class="person" data-lab="darras">
     <img src="{{ '/assets/images/hugo-darras.png' | relative_url }}" alt="Hugo Darras">
     <h3>Hugo Darras</h3>
     <p class="role">Principal Investigator</p>
@@ -111,7 +144,7 @@ title: People
 </div>
 
 <div class="people-grid">
-  <div class="person">
+  <div class="person" data-lab="darras">
     <img src="{{ '/assets/images/chuanxin.png' | relative_url }}" alt="Chuanxin Yu">
     <h3>Chuanxin Yu</h3>
     <p class="role">PhD Student</p>
@@ -120,7 +153,7 @@ title: People
     <p><a href="mailto:chuanxin.yu@uni-mainz.de">chuanxin.yu@uni-mainz.de</a></p>
   </div>
 
-  <div class="person">
+  <div class="person" data-lab="darras">
     <img src="{{ '/assets/images/lena.png' | relative_url }}" alt="Lena Fröhlich">
     <h3>Lena Fröhlich</h3>
     <p class="role">MSc Student</p>
@@ -128,7 +161,7 @@ title: People
     <p class="institute">JGU Mainz</p>
   </div>
 
-  <div class="person">
+  <div class="person" data-lab="darras">
     <img src="{{ '/assets/images/emilia.png' | relative_url }}" alt="Emilia María Romero Pineda">
     <h3>Emilia María Romero Pineda</h3>
     <p class="role">MSc Student</p>
@@ -136,3 +169,19 @@ title: People
     <p class="institute">JGU Mainz</p>
   </div>
 </div>
+
+<script>
+function filterPeople(lab, button) {
+  const people = document.querySelectorAll('.person');
+  people.forEach(person => {
+    if (lab === 'all') {
+      person.style.display = 'block';
+    } else {
+      person.style.display = person.getAttribute('data-lab') === lab ? 'block' : 'none';
+    }
+  });
+
+  document.querySelectorAll('#people-filter button').forEach(btn => btn.classList.remove('active'));
+  button.classList.add('active');
+}
+</script>

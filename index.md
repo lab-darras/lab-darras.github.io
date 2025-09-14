@@ -17,7 +17,6 @@ We are two closely collaborating research groups studying the evolution of sex d
 The **Haplodiploidy Lab** is based at the <a href="https://www.imb.de/" target="_blank">Institute of Molecular Biology</a> in Mainz, Germany. The **Genetic Systems Lab** is based at the <a href="https://iome.biology.uni-mainz.de/" target="_blank">Institute of Organismic and Molecular Evolution</a>, Johannes Gutenberg University Mainz, Germany.  
 
 <div class="team-banner">
-  <h2>Meet our team</h2>
   <p><a href="{{ '/people.html' | relative_url }}">See the full team →</a></p>
 </div>
 

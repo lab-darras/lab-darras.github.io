@@ -5,7 +5,16 @@ title: Research
 
 ## Haplodiploidy
 
-Beetles and wasps.
+Our lab studies how sex is determined at the molecular level and how these mechanisms evolve over time. Sex determination is the developmental process that decides whether an embryo develops as female or male, and we are fascinated by how many different ways nature has solved this problem. We want to understand both how sex determination works in different species and why these mechanisms are so evolutionarily flexible.
+
+While we are also interested in sex chromosomes, our main focus is on  **haplodiploid organisms** — species where females develop from fertilized eggs (diploid, 2n) and males from unfertilized eggs (haploid, 1n). Haplodiploidy has evolved multiple times from ancestors with sex chromosomes, but we still know very little about how this transition happens and what molecular mechanisms control sex in these systems.
+
+To tackle these questions, we use different haplodiploid model species and ask:
+
+- What are the molecular mechanisms of haplodiploid sex determination?  
+- How do transitions between different sex-determining systems occur?  
+- What developmental innovations accompanied the evolution of haplodiploidy?  
+
 
 <div class="container" style="display:flex; gap:2%; justify-content:space-between;">
   <img src="{{ '/assets/images/6962841056_04bd7b4b6f_c.jpg' | relative_url }}" alt="Research picture" style="width:23.5%; height:auto; object-fit:cover;">

@@ -10,7 +10,7 @@ title: People
 .group-leaders {
   display: flex;
   justify-content: center;
-  gap: 120px;   /* space between the leaders */
+  gap: 120px;
   margin: 40px 0 60px 0;
   flex-wrap: wrap;
 }
@@ -18,7 +18,7 @@ title: People
 .people-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 50px;  /* more breathing room */
+  gap: 50px;
   justify-items: center;
   margin-top: 40px;
 }
@@ -49,25 +49,43 @@ title: People
   margin-top: 15px;
   margin-bottom: 5px;
   font-size: 1.2rem;
-  font-family: "Georgia", serif;   /* adds variety */
   font-weight: 600;
   color: #222;
+  text-align: center;
 }
 
-/* Roles and institutes */
-.person p {
+/* Ensure all text under the photo is centered */
+.person p,
+.person a {
+  display: block;
+  text-align: center;
   margin: 3px 0;
   font-size: 0.9rem;
+  line-height: 1.3;
+}
+
+/* Roles */
+.person .role {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Labs */
+.person .lab {
+  font-weight: 500;
   color: #444;
-  line-height: 1.4;
+}
+
+/* Institutes */
+.person .institute {
+  font-weight: 400;
+  color: #666;
 }
 
 /* Email links */
 .person a {
   color: #0066cc;
   text-decoration: none;
-  font-size: 0.9rem;
-  font-family: monospace;  /* visually distinct */
 }
 
 .person a:hover {
@@ -79,17 +97,17 @@ title: People
   <div class="person">
     <img src="{{ '/assets/images/miya-pan.png' | relative_url }}" alt="Miya Pan">
     <h3>Miya Pan</h3>
-    <p><strong>Principal Investigator</strong></p>
-    <p>Haplodiploidy Lab</p>
-    <p>IMB Mainz</p>
+    <p class="role">Principal Investigator</p>
+    <p class="lab">Haplodiploidy Lab</p>
+    <p class="institute">IMB Mainz</p>
     <p><a href="mailto:miya.pan@imb.de">miya.pan@imb.de</a></p>
   </div>
   <div class="person">
     <img src="{{ '/assets/images/hugo-darras.png' | relative_url }}" alt="Hugo Darras">
     <h3>Hugo Darras</h3>
-    <p><strong>Principal Investigator</strong></p>
-    <p>Genetic Systems Lab</p>
-    <p>JGU Mainz</p>
+    <p class="role">Principal Investigator</p>
+    <p class="lab">Genetic Systems Lab</p>
+    <p class="institute">JGU Mainz</p>
     <p><a href="mailto:hugo.darras@uni-mainz.de">hugo.darras@uni-mainz.de</a></p>
   </div>
 </div>
@@ -98,25 +116,25 @@ title: People
   <div class="person">
     <img src="{{ '/assets/images/chuanxin.png' | relative_url }}" alt="Chuanxin Yu">
     <h3>Chuanxin Yu</h3>
-    <p>PhD Student</p>
-    <p>Genetic Systems Lab</p>
-    <p>JGU Mainz</p>
+    <p class="role">PhD Student</p>
+    <p class="lab">Genetic Systems Lab</p>
+    <p class="institute">JGU Mainz</p>
     <p><a href="mailto:chuanxin.yu@uni-mainz.de">chuanxin.yu@uni-mainz.de</a></p>
   </div>
 
   <div class="person">
     <img src="{{ '/assets/images/lena.png' | relative_url }}" alt="Lena Fröhlich">
     <h3>Lena Fröhlich</h3>
-    <p>MSc Student</p>
-    <p>Genetic Systems Lab</p>
-    <p>JGU Mainz</p>
+    <p class="role">MSc Student</p>
+    <p class="lab">Genetic Systems Lab</p>
+    <p class="institute">JGU Mainz</p>
   </div>
 
   <div class="person">
     <img src="{{ '/assets/images/emilia.png' | relative_url }}" alt="Emilia María Romero Pineda">
     <h3>Emilia María Romero Pineda</h3>
-    <p>MSc Student</p>
-    <p>Genetic Systems Lab</p>
-    <p>JGU Mainz</p>
+    <p class="role">MSc Student</p>
+    <p class="lab">Genetic Systems Lab</p>
+    <p class="institute">JGU Mainz</p>
   </div>
 </div>

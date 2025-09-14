@@ -6,9 +6,7 @@ title: Home
 <div class="hero-banner">
   <img src="{{ '/assets/images/linepithema.png' | relative_url }}" alt="Linepithema illustration">
   <div class="hero-overlay">
-    <h1>Haplodiploidy & Genetic Systems Labs</h1>
-    <p class="tagline">Investigating the evolution of sex determination and genetic systems</p>
-    <p class="location">Based in Mainz, Germany</p>
+    <h1>Investigating the evolution of sex determination and genetic systems</h1>
   </div>
 </div>
 
@@ -16,10 +14,12 @@ title: Home
 
 We are two closely collaborating research groups studying the evolution of sex determination and genetic systems in ants, bees, wasps, and other haplodiploid organisms. Our labs combine complementary expertise through collaboration, yet each maintains distinct research directions and identity.
 
-The **Haplodiploidy Lab** is based at the  
-<a href="https://www.imb.de/" target="_blank">Institute of Molecular Biology</a> in Mainz, Germany.  
-The **Genetic Systems Lab** is based at the  
-<a href="https://iome.biology.uni-mainz.de/" target="_blank">Institute of Organismic and Molecular Evolution</a>, Johannes Gutenberg University Mainz, Germany.  
+The **Haplodiploidy Lab** is based at the <a href="https://www.imb.de/" target="_blank">Institute of Molecular Biology</a> in Mainz, Germany. The **Genetic Systems Lab** is based at the <a href="https://iome.biology.uni-mainz.de/" target="_blank">Institute of Organismic and Molecular Evolution</a>, Johannes Gutenberg University Mainz, Germany.  
+
+<div class="team-banner">
+  <h2>Meet our team</h2>
+  <p><a href="{{ '/people.html' | relative_url }}">See the full team →</a></p>
+</div>
 
 <style>
 .hero-banner {
@@ -60,6 +60,8 @@ The **Genetic Systems Lab** is based at the
   font-weight: 300;
   margin: 0.5rem auto;
   max-width: 800px;
+  text-align: center;   /* ensure horizontal centering */
+  display: block;       /* keep full control */
 }
 
 .hero-overlay .location {
@@ -80,5 +82,23 @@ The **Genetic Systems Lab** is based at the
   .hero-overlay .location {
     font-size: 1rem;
   }
+}
+  
+/* Meet our team */
+.team-banner {
+  text-align: center;
+  margin: 4rem 0;
+}
+.team-banner h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.team-banner p a {
+  font-size: 1.1rem;
+  color: #0077cc;
+  text-decoration: none;
+}
+.team-banner p a:hover {
+  text-decoration: underline;
 }
 </style>

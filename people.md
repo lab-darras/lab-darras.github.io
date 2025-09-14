@@ -3,23 +3,23 @@ layout: default
 title: People
 ---
 
-# Meet the team
+# People
 
 <style>
+.group-leaders {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
 .people-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 40px;  /* extra spacing between staff */
+  gap: 40px;
   justify-items: center;
   margin-top: 40px;
-}
-
-.group-leaders {
-  display: flex;
-  gap: 20px;           /* closer together */
-  justify-content: center;
-  margin-bottom: 60px; /* more space before students */
-  flex-wrap: wrap;
 }
 
 .person {
@@ -68,48 +68,44 @@ title: People
 
 <div class="group-leaders">
   <div class="person">
-    <img src="{{ '/assets/images/miya-pan.jpg' | relative_url }}" alt="Miya Pan">
-    <h3>Qiaowei "Miya" Pan</h3>
+    <img src="{{ '/assets/images/miya-pan.png' | relative_url }}" alt="Miya Pan">
+    <h3>Miya Pan</h3>
     <p>Haplodiploidy Lab</p>
-    <p>Institute of Molecular Biology, Mainz</p>
+    <p>IMB Mainz</p>
     <p><a href="mailto:miya.pan@imb.de">miya.pan@imb.de</a></p>
   </div>
   <div class="person">
-    <img src="{{ '/assets/images/hugo-darras.jpg' | relative_url }}" alt="Hugo Darras">
+    <img src="{{ '/assets/images/hugo-darras.png' | relative_url }}" alt="Hugo Darras">
     <h3>Hugo Darras</h3>
     <p>Genetic Systems Lab</p>
-    <p>Institute of Organismic and Molecular Evolution, JGU Mainz</p>
+    <p>JGU Mainz</p>
     <p><a href="mailto:hugo.darras@uni-mainz.de">hugo.darras@uni-mainz.de</a></p>
   </div>
 </div>
 
-## Lab members
+## Students
 
 <div class="people-grid">
   <div class="person">
-    <img src="{{ '/assets/images/student1.jpg' | relative_url }}" alt="Chuanxin Yu">
+    <img src="{{ '/assets/images/chuanxin.png' | relative_url }}" alt="Chuanxin Yu">
     <h3>Chuanxin Yu</h3>
-    <p>PhD Student</p>
-    <p>Genetic Systems Lab</p>
-    <p>Institute of Organismic and Molecular Evolution, JGU Mainz</p>
+    <p>PhD Student, Genetic Systems Lab</p>
+    <p>JGU Mainz</p>
     <p><a href="mailto:chuanxin.yu@uni-mainz.de">chuanxin.yu@uni-mainz.de</a></p>
   </div>
 
   <div class="person">
-    <img src="{{ '/assets/images/student2.jpg' | relative_url }}" alt="Lena Fröhlich">
+    <img src="{{ '/assets/images/lena.png' | relative_url }}" alt="Lena Fröhlich">
     <h3>Lena Fröhlich</h3>
-    <p>MSc Student</p>
-    <p>Genetic Systems Lab</p>
-    <p>Institute of Organismic and Molecular Evolution, JGU Mainz</p>
+    <p>MSc Student, Haplodiploidy Lab</p>
+        <p>JGU Mainz</p>
   </div>
 
   <div class="person">
-    <img src="{{ '/assets/images/student3.jpg' | relative_url }}" alt="Emilia Maria Romero Pineda">
+    <img src="{{ '/assets/images/emilia.png' | relative_url }}" alt="Emilia María Romero Pineda">
     <h3>Emilia María Romero Pineda</h3>
-    <p>MSc Student</p>
-    <p>Genetic Systems Lab</p>
-    <p>Institute of Organismic and Molecular Evolution, JGU Mainz</p>
+    <p>MSc Student, Genetic Systems Lab</p>
+        <p>JGU Mainz</p>
   </div>
 
-  <!-- Add more students here -->
 </div>

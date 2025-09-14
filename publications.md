@@ -6,9 +6,9 @@ title: Publications
 ## Publications
 
 <div id="pub-filter" style="margin-bottom:1.5rem; text-align:center;">
-  <button class="active" onclick="filterPubs('all', this)">All Publications</button>
-  <button onclick="filterPubs('pan', this)">Pan Lab</button>
-  <button onclick="filterPubs('darras', this)">Darras Lab</button>
+  <button data-filter="all">All Publications</button>
+  <button data-filter="pan">Pan Lab</button>
+  <button data-filter="darras">Darras Lab</button>
 </div>
 
 <ol id="pub-list">
@@ -22,7 +22,7 @@ title: Publications
   <li class="pub" data-author="darras"><span class="author">Darras H.</span>, Berney C., Hasin S., Drescher J., Feldhaar H., Keller L. 2023. Obligate chimerism in male yellow crazy ants. <span class="journal">Science</span>, 380(6640): 55-58.</li>
 
   <!-- 2022 -->
-  <li class="pub" data-author="pan">Pan Q., Herpin A., Guiguen Y. 2022. Inactivation of the anti-Müllerian hormone receptor type 2 (<em>amhrII</em>) gene in northern pike (<em>Esox lucius</em>) results in male-to-female sex reversal. <span class="journal">Sexual Development</span>, 16(4): 289–294.</li>
+  <li class="pub" data-author="pan"><span class="author">Pan Q.</span>, Herpin A., Guiguen Y. 2022. Inactivation of the anti-Müllerian hormone receptor type 2 (<em>amhrII</em>) gene in northern pike (<em>Esox lucius</em>) results in male-to-female sex reversal. <span class="journal">Sexual Development</span>, 16(4): 289–294.</li>
   <li class="pub" data-author="pan">Wen M., <span class="author">Pan Q.</span>, Jouanno E., <em>et al.</em> 2022. An ancient truncated duplication of the anti-Müllerian hormone receptor type 2 gene is a potential conserved master sex determinant in the Pangasiidae catfish family. <span class="journal">Molecular Ecology Resources</span>, 22(6): 2411–2428.</li>
   <li class="pub" data-author="darras">Tseng S.-P. (‡), <span class="author">Darras H.</span> (‡), Hsu P.-W., Yoshimura T., Lee C.-Y., Wetterer J.K., Keller L., Yang C.C.S. 2022. Genetic analysis reveals the putative native range and widespread double-clonal reproduction in the invasive <em>longhorn crazy ant</em>. <span class="journal">Molecular Ecology</span>, 32(5).</li>
   <li class="pub" data-author="darras"><span class="author">Darras H.</span>, de Souza Araujo N., Baudry L., Guiglielmoni N., Lorite P., Marbouty M., Rodriguez F., Arkhipova I., Koszul R., Flot J.F., Aron S. 2022. Chromosome-level genome assembly and annotation of two lineages of the ant <em>Cataglyphis hispanica</em>. <span class="journal">PCI Genomics</span>, 2(e40).</li>
@@ -30,7 +30,7 @@ title: Publications
   <!-- 2021 -->
   <li class="pub" data-author="pan">Imarazene B., Du K., Beille S., Jouanno E., Feron R., <span class="author">Pan Q.</span>, <em>et al.</em> 2021. A supernumerary B-sex chromosome drives male sex determination in the Pachón cavefish, <em>Astyanax mexicanus</em>. <span class="journal">Current Biology</span>, 31(21): 4800–4809.e9.</li>
   <li class="pub" data-author="pan">Thompson A., Hawkins M., Parey E., Wcisel D., Ota T., Kawasaki K., Funk E., Losilla M., Fitch O., <span class="author">Pan Q.</span>, <em>et al.</em> 2021. The bowfin genome illuminates the developmental evolution of ray-finned fishes. <span class="journal">Nature Genetics</span>, 53(9): 1373–1384.</li>
-  <li class="pub" data-author="pan">Pan Q., Kay T., Depincé A., Adolfi M., Schartl M., Guiguen Y., Herpin A. 2021. Evolution of master sex determiners: TGF-β signalling pathways at regulatory crossroads. <span class="journal">Philosophical Transactions of the Royal Society B</span>, 376(1832): 20200091.</li>
+  <li class="pub" data-author="pan"><span class="author">Pan Q.</span>, Kay T., Depincé A., Adolfi M., Schartl M., Guiguen Y., Herpin A. 2021. Evolution of master sex determiners: TGF-β signalling pathways at regulatory crossroads. <span class="journal">Philosophical Transactions of the Royal Society B</span>, 376(1832): 20200091.</li>
   <li class="pub" data-author="pan darras"><span class="author">Pan Q.</span>, Feron R., Jouanno E., <span class="author">Darras H.</span>, Herpin A., Koop B., Rondeau E., Goetz F.W., Larson W.A., Bernatchez L., <em>et al.</em> 2021. The rise and fall of the ancient northern pike master sex-determining gene. <span class="journal">eLife</span>, 10: e62858.</li>
   <li class="pub" data-author="pan">Feron R., <span class="author">Pan Q.</span>, Wen M., Imarazene B., <em>et al.</em> 2021. RADSex: a computational workflow to study sex determination using Restriction Site–Associated DNA sequencing data. <span class="journal">Molecular Ecology Resources</span>, 21(5): 1715–1731.</li>
   <li class="pub" data-author="darras">Bujan J., Charavel E., Bates O.K., Gippet J.M.W., <span class="author">Darras H.</span>, Lebas C., Bertelsmeier C. 2021. Increased acclimation ability accompanies a thermal niche shift of a recent invasion. <span class="journal">Journal of Animal Ecology</span>, 90(2): 483-491.</li>
@@ -71,20 +71,34 @@ title: Publications
 <p>‡ equal contributions</p>
 
 <script>
-function filterPubs(author, button) {
+function applyFilter(author) {
   const pubs = document.querySelectorAll('#pub-list .pub');
   pubs.forEach(pub => {
-    if (author === 'all') {
-      pub.style.display = 'list-item';
-    } else {
-      const tags = pub.getAttribute('data-author').split(' ');
-      pub.style.display = tags.includes(author) ? 'list-item' : 'none';
-    }
+    const tags = (pub.dataset.author || '').split(/\s+/);
+    pub.style.display = (author === 'all' || tags.includes(author)) ? 'list-item' : 'none';
   });
 
-  document.querySelectorAll('#pub-filter button').forEach(btn => btn.classList.remove('active'));
-  button.classList.add('active');
+  document.querySelectorAll('#pub-filter button').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.filter === author);
+  });
 }
+
+function initFilterFromHash() {
+  const hash = (location.hash || '').replace('#','');
+  const author = ['pan','darras','all'].includes(hash) ? hash : 'all';
+  applyFilter(author);
+}
+
+document.addEventListener('click', (e) => {
+  if (e.target.matches('#pub-filter button')) {
+    const author = e.target.dataset.filter;
+    applyFilter(author);
+    history.replaceState(null, '', '#'+author);
+  }
+});
+
+window.addEventListener('DOMContentLoaded', initFilterFromHash);
+window.addEventListener('hashchange', initFilterFromHash);
 </script>
 
 <style>
@@ -98,9 +112,7 @@ function filterPubs(author, button) {
   border-radius: 4px 4px 0 0;
   transition: background 0.2s, border-color 0.2s;
 }
-#pub-filter button:hover {
-  background: #eaeaea;
-}
+#pub-filter button:hover { background: #eaeaea; }
 #pub-filter button.active {
   background: #fff;
   border: 1px solid #0077cc;
@@ -111,7 +123,7 @@ function filterPubs(author, button) {
 #pub-list {
   max-width: 900px;
   margin: 0 auto;
-  text-align: justify;  /* ✅ justified */
+  text-align: justify;
 }
 #pub-list li {
   margin-bottom: 0.6rem;

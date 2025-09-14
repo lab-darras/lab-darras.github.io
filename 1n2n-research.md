@@ -15,12 +15,13 @@ To tackle these questions, we use different haplodiploid model species and ask:
 - How do transitions between different sex-determining systems occur?  
 - What developmental innovations accompanied the evolution of haplodiploidy?  
 
-
-<div class="container" style="display:flex; gap:2%; justify-content:space-between;">
-  <img src="{{ '/assets/images/6962841056_04bd7b4b6f_c.jpg' | relative_url }}" alt="Research picture" style="width:23.5%; height:auto; object-fit:cover;">
-  <img src="{{ '/assets/images/14831812109_248e71f584_c.jpg' | relative_url }}" alt="Research picture" style="width:23.5%; height:auto; object-fit:cover;">
-  <img src="{{ '/assets/images/7294863010_93d13923bb_c.jpg' | relative_url }}" alt="Research picture" style="width:23.5%; height:auto; object-fit:cover;">
-  <img src="{{ '/assets/images/4837265100_7ff68cd6f6_c.jpg' | relative_url }}" alt="Research picture" style="width:23.5%; height:auto; object-fit:cover;">
+<div class="container" style="display:flex; gap:3%; justify-content:center; flex-wrap:wrap; margin:2rem 0;">
+  <img src="{{ '/assets/images/argentine.jpg' | relative_url }}" 
+       alt="Argentine ant" 
+       style="width:48%; min-width:260px; height:auto; object-fit:cover; border-radius:6px;">
+  <img src="{{ '/assets/images/wasp.jpg' | relative_url }}" 
+       alt="Wasp" 
+       style="width:48%; min-width:260px; height:auto; object-fit:cover; border-radius:6px;">
 </div>
 
 <div style="height:40px;"></div>

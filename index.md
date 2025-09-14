@@ -5,12 +5,11 @@ title: Home
 
 # Welcome to the Haplodiploidy and Genetic Systems Labs!
 
-We are two closely collaborating research groups studying the evolution of sex determination and genetic systems in ants, bees, wasps, and other haplodiploid organisms. Our labs combine complementary expertise through collaboration, yet each maintains distinct research directions and identity.
+We are two closely collaborating research groups studying the evolution of sex determination and genetic systems in ants, bees, wasps, and other haplodiploid organisms. Our labs combine complementary expertise through collaboration, yet maintain distinct research directions and identities.
 
-The **Haplodiploidy Lab** is based at the <a href="https://www.imb.de/" target="_blank">Institute of Molecular Biology</a> in Mainz, Germany.  
-The **Genetic Systems Lab** is based at the <a href="https://iome.biology.uni-mainz.de/" target="_blank">Institute of Organismic and Molecular Evolution</a>, Johannes Gutenberg University Mainz, Germany.  
+The **Haplodiploidy Lab** is based at the <a href="https://www.imb.de/" target="_blank">Institute of Molecular Biology</a> in Mainz, Germany. The **Genetic Systems Lab** is based at the <a href="https://iome.biology.uni-mainz.de/" target="_blank">Institute of Organismic and Molecular Evolution</a>, Johannes Gutenberg University Mainz, Germany.  
 
-<div style="height:40px;"></div>
+<div style="height:1px;"></div>
 
 <div class="hero-banner">
   <img src="{{ '/assets/images/linepithema.png' | relative_url }}" alt="Linepithema illustration">

@@ -53,7 +53,15 @@ The **Haplodiploidy Lab** is based at the <a href="https://www.imb.de/" target="
 .hero-overlay h1 {
   font-size: 2.6rem;
   margin-bottom: 0.5rem;
+  max-width: 700px;   /* keeps text tighter, ~2 lines */
+  line-height: 1.3;   /* balanced spacing */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  word-break: normal;
+  white-space: normal;
 }
+
 
 .hero-overlay .tagline {
   font-size: 1.3rem;

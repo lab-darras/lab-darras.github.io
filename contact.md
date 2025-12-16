@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 
 <div class="lab-text">
-<h2>Positions available</h2>
+<h2 style="margin-top:60px;">Positions available</h2>
 
 <p>
 We are recruiting at multiple levels, including research assistants, undergraduate students, and PhD candidates, with opportunities in both China and Germany.

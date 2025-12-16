@@ -77,14 +77,23 @@ permalink: /
 
 <h1>Darras Lab</h1>
 
-<p>
+<style>
+  .lab-text a {
+    color: #2f4a6d;
+    text-decoration: none;
+  }
+
+  .lab-text a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<p class="lab-text">
 We study the evolution of genomic conflicts in animals. Our lab is based at the
 <a href="https://evolution.zju.edu.cn/en/index.html">Centre for Evolutionary and Organismal Biology</a>
 at Zhejiang University.
-We collaborate extensively with the
-<a href="https://www.phd.tuebingen.mpg.de/36499/Qiaowei-_Miya_-Pan">
-Pan Lab (Insect sex determination and development)
-</a>
+We collaborate extensively with the Pan Lab
+(<a href="https://www.phd.tuebingen.mpg.de/36499/Qiaowei-_Miya_-Pan">Insect sex determination and development</a>)
 at the Max Planck Institute for Biology, Tübingen, through shared resources and thesis co-supervision.
 </p>
 

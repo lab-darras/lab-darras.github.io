@@ -5,6 +5,13 @@ permalink: /
 ---
 
 <style>
+/* Narrower layout for this page */
+.wrap {
+  max-width: 980px;
+}
+</style>
+
+<style>
 /* General layout */
 .section{ padding:48px 0; }
 .lead{ font-size:1.05rem; line-height:1.6; max-width:80ch; }
@@ -100,6 +107,8 @@ at Zhejiang University. We collaborate extensively with the Pan Lab (<a href="ht
   <img src="{{ '/assets/images/7294863010_93d13923bb_c.jpg' | relative_url }}" alt="Research image" style="width:21%; height:auto; object-fit:cover;">
   <img src="{{ '/assets/images/4837265100_7ff68cd6f6_c.jpg' | relative_url }}" alt="Research image" style="width:21%; height:auto; object-fit:cover;">
 </div>
+
+<div style="height:60px;"></div>
 
   <h2>People</h2>
 

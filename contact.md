@@ -12,8 +12,8 @@ We are recruiting at multiple levels, including research assistants, undergradua
 </p>
 
 <p>
-For positions in China, please contact:
-<br>
+<strong>For positions in China, please contact:</strong>
+<br><br>
 Hugo Darras<br>
 Zhejiang University<br>
 Centre for Evolutionary &amp; Organismal Biology<br>
@@ -22,11 +22,12 @@ Hangzhou, China<br>
 </p>
 
 <p>
-For positions in Germany, or for projects related to haplodiploid sex determination, please also contact (cc) our partner laboratory:
-<br>
+<strong>For positions in Germany, or for projects related to haplodiploid sex determination, please also contact (cc) our joint laboratory:</strong>
+<br><br>
 Miya (Qiaowei) Pan<br>
 Max Planck Institute for Biology<br>
 Tübingen, Germany<br>
 <a href="mailto:qiaowei.pan@tuebingen.mpg.de">qiaowei.pan@tuebingen.mpg.de</a>
 </p>
+
 </div>

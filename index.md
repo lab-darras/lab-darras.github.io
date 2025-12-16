@@ -74,9 +74,7 @@ permalink: /
 </style>
 
 <section class="section">
-
-
-
+  
 <style>
   .lab-text a {
     color: #2f4a6d;
@@ -134,7 +132,7 @@ at Zhejiang University. We collaborate extensively with the Pan Lab (<a href="ht
     </div>
 
     <div class="person">
-      <img class="avatar" src="{{ '/assets/images/emilia.png' | relative_url }}" alt="Emilia María Romero Pineda">
+      <img class="avatar" src="{{ '/assets/images/emilia.png' | relative_url }}" alt="Emilia Romero Pineda">
       <div class="name">Emilia María Romero Pineda</div>
       <div class="role">MSc Student</div>
     </div>

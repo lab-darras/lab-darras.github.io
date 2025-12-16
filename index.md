@@ -1,111 +1,93 @@
 ---
 layout: default
-title: Home
+title: Darras Lab
+permalink: /
 ---
 
-<div class="hero-banner">
-  <img src="{{ '/assets/images/linepithema.png' | relative_url }}" alt="Linepithema illustration">
-  <div class="hero-overlay">
-    <h1>Investigating the evolution of sex determination and genetic systems</h1>
+<section id="research" class="section">
+  <h1>Darras Lab</h1>
+  <p class="lead">
+    We study the genetics and evolution of insect societies, with a focus on sex determination, reproductive systems, and genome architecture in ants and other Hymenoptera.
+  </p>
+
+  <h2>Research projects</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Sex determination across Hymenoptera</h3>
+      <p>
+        We investigate deeply conserved sex-determining mechanisms and how they evolve, including cases with conserved function but divergent sequence.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Genetic caste determination and lineages</h3>
+      <p>
+        We study systems where queen and worker development is linked to genetic background, including hybrid worker production and lineage-specific reproduction.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Genome evolution in social insects</h3>
+      <p>
+        We combine long-read assemblies, population genomics, and functional analyses to understand structural variation, supergenes, and regulatory evolution.
+      </p>
+    </div>
   </div>
-</div>
+</section>
 
-# Welcome to the Haplodiploidy and Genetic Systems Labs!
+<section id="people" class="section">
+  <h2>People</h2>
+  <p class="muted">Contact details are provided for scientific correspondence.</p>
 
-We are two closely collaborating research groups studying the evolution of sex determination and genetic systems in ants, bees, wasps, and other haplodiploid organisms. Our labs combine complementary expertise through collaboration, yet each maintains distinct research directions and identity.
+  <!-- Replace the entries below with your real list -->
+  <div class="people-grid">
+    <div class="person">
+      <img src="/assets/people/hugo_darras.jpg" alt="Hugo Darras">
+      <div class="person-meta">
+        <div class="person-name">Hugo Darras</div>
+        <div class="person-role">PI</div>
+        <a class="person-email" href="mailto:YOUR_EMAIL@domain">YOUR_EMAIL@domain</a>
+      </div>
+    </div>
 
-The **Haplodiploidy Lab** is based at the <a href="https://www.imb.de/" target="_blank">Institute of Molecular Biology</a> in Mainz, Germany. The **Genetic Systems Lab** is based at the <a href="https://iome.biology.uni-mainz.de/" target="_blank">Institute of Organismic and Molecular Evolution</a>, Johannes Gutenberg University Mainz, Germany.  
+    <div class="person">
+      <img src="/assets/people/placeholder.jpg" alt="Name">
+      <div class="person-meta">
+        <div class="person-name">Name</div>
+        <div class="person-role">PhD student</div>
+        <a class="person-email" href="mailto:name@domain">name@domain</a>
+      </div>
+    </div>
 
-<div class="team-banner">
-  <p><a href="{{ '/people.html' | relative_url }}">See the full team →</a></p>
-</div>
+    <div class="person">
+      <img src="/assets/people/placeholder.jpg" alt="Name">
+      <div class="person-meta">
+        <div class="person-name">Name</div>
+        <div class="person-role">MSc student</div>
+        <a class="person-email" href="mailto:name@domain">name@domain</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-<style>
-.hero-banner {
-  position: relative;
-  width: 100%;
-  height: 55vh;        /* responsive height relative to screen */
-  min-height: 300px;   /* don’t get too small */
-  max-height: 600px;   /* don’t get too tall */
-  overflow: hidden;
-  margin-bottom: 2.5rem;
-}
+<section id="publications" class="section">
+  <h2>Publications</h2>
+  <p class="muted">
+    Selected publications are listed below. For the full list, see Google Scholar.
+  </p>
 
-.hero-banner img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;   /* cover container while cropping edges */
-  opacity: 0.8;
-}
-
-.hero-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-  text-shadow: 0px 2px 8px rgba(0,0,0,0.6);
-  padding: 0 1rem; /* prevent text touching edges on small screens */
-}
-
-.hero-overlay h1 {
-  font-size: 2.6rem;
-  margin-bottom: 0.5rem;
-  max-width: 700px;   /* keeps text tighter, ~2 lines */
-  line-height: 1.3;   /* balanced spacing */
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  word-break: normal;
-  white-space: normal;
-}
-
-
-.hero-overlay .tagline {
-  font-size: 1.3rem;
-  font-weight: 300;
-  margin: 0.5rem auto;
-  max-width: 800px;
-  text-align: center;   /* ensure horizontal centering */
-  display: block;       /* keep full control */
-}
-
-.hero-overlay .location {
-  font-size: 1.1rem;
-  font-weight: 400;
-  margin-top: 0.5rem;
-  color: #f0f0f0;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .hero-overlay h1 {
-    font-size: 2rem;
-  }
-  .hero-overlay .tagline {
-    font-size: 1.1rem;
-  }
-  .hero-overlay .location {
-    font-size: 1rem;
-  }
-}
-  
-/* Meet our team */
-.team-banner {
-  text-align: center;
-  margin: 4rem 0;
-}
-.team-banner h2 {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-}
-.team-banner p a {
-  font-size: 1.1rem;
-  color: #0077cc;
-  text-decoration: none;
-}
-.team-banner p a:hover {
-  text-decoration: underline;
-}
-</style>
+  <!-- Replace with your publications -->
+  <ol class="pubs">
+    <li>
+      <span class="pub-authors">Author A, Author B, Author C</span>.
+      <span class="pub-title">Title of the paper</span>.
+      <span class="pub-journal">Journal</span> (<span class="pub-year">Year</span>).
+      <a href="#" target="_blank" rel="noopener">link</a>
+    </li>
+    <li>
+      <span class="pub-authors">Author A, Author B</span>.
+      <span class="pub-title">Title of the paper</span>.
+      <span class="pub-journal">Journal</span> (<span class="pub-year">Year</span>).
+    </li>
+  </ol>
+</section>

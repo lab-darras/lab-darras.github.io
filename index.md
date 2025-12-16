@@ -4,12 +4,6 @@ title: Darras Lab
 permalink: /
 ---
 
-<style>
-/* Narrower layout for this page */
-.wrap {
-  max-width: 980px;
-}
-</style>
 
 <style>
 /* General layout */

@@ -6,9 +6,8 @@ permalink: /
 
 <style>
 /* ---------- General layout ---------- */
-.section { max-width: 1100px; margin: 0 auto; padding: 48px 16px; }
+.section { padding: 48px 0; }
 .lead { font-size: 1.05rem; line-height: 1.6; max-width: 75ch; }
-.muted { opacity: 0.8; }
 
 /* ---------- Research cards ---------- */
 .cards {
@@ -54,7 +53,6 @@ permalink: /
   font-size: 1.02rem;
 }
 .person .role,
-.person .lab,
 .person .inst {
   font-size: 0.9rem;
   line-height: 1.25;
@@ -67,20 +65,9 @@ permalink: /
   text-decoration: none;
 }
 .person a:hover { text-decoration: underline; }
-
-/* ---------- Publications ---------- */
-.pubs { margin-top: 14px; padding-left: 18px; }
-.pubs li { margin: 8px 0; line-height: 1.5; }
-
-/* Journal style (same blue as old publications page) */
-.pub-journal {
-  color: #2F3066;
-  font-weight: 600;
-  font-style: italic;
-}
 </style>
 
-<section id="research" class="section">
+<section class="section" id="research">
   <h1>Darras Lab</h1>
   <p class="lead">
     We study the genetics and evolution of insect societies, with a focus on sex determination,
@@ -115,7 +102,7 @@ permalink: /
   </div>
 </section>
 
-<section id="people" class="section">
+<section class="section" id="people">
   <h2>People</h2>
 
   <div class="people-grid">
@@ -157,23 +144,4 @@ permalink: /
       <div class="inst">JGU Mainz</div>
     </div>
   </div>
-</section>
-
-<section id="publications" class="section">
-  <h2>Publications</h2>
-
-  <ol class="pubs">
-    <li><strong>Darras H.</strong>, Pan Q. 2024. Clonal ants reveal a potentially hidden meiotic feature. <span class="pub-journal">Trends in Genetics</span>, 40(11).</li>
-    <li>Pan Q. (‡), <strong>Darras H.</strong> (‡), Keller L. 2024. LncRNA gene ANTSR coordinates complementary sex determination in the Argentine ant. <span class="pub-journal">Science Advances</span>, 10(22).</li>
-    <li>Adolfi M.C., Depincé A., Wen M., Pan Q., Herpin A. 2023. Development of ovaries and sex change in fish: bringing potential into action. <span class="pub-journal">Sexual Development</span>, 17(2–3): 84–98.</li>
-    <li>Wen M., Pan Q., Larson W., Eché C., Guiguen Y. 2023. Characterization of the sex determining region of channel catfish (<em>Ictalurus punctatus</em>) and development of a sex-genotyping test. <span class="pub-journal">Gene</span>, 850: 146933.</li>
-    <li><strong>Darras H.</strong>, Berney C., Hasin S., Drescher J., Feldhaar H., Keller L. 2023. Obligate chimerism in male yellow crazy ants. <span class="pub-journal">Science</span>, 380(6640): 55–58.</li>
-    <li>Pan Q., Herpin A., Guiguen Y. 2022. Inactivation of the anti-Müllerian hormone receptor type 2 gene in northern pike (<em>Esox lucius</em>) results in male-to-female sex reversal. <span class="pub-journal">Sexual Development</span>, 16(4): 289–294.</li>
-    <li>Wen M., Pan Q., Jouanno E., et al. 2022. An ancient truncated duplication of the anti-Müllerian hormone receptor type 2 gene is a potential conserved master sex determinant in the Pangasiidae catfish family. <span class="pub-journal">Molecular Ecology Resources</span>, 22(6): 2411–2428.</li>
-    <li>Tseng S.-P. (‡), <strong>Darras H.</strong> (‡), et al. 2022. Genetic analysis reveals the putative native range and widespread double-clonal reproduction in the invasive longhorn crazy ant. <span class="pub-journal">Molecular Ecology</span>, 32(5).</li>
-    <li><strong>Darras H.</strong>, et al. 2022. Chromosome-level genome assembly and annotation of two lineages of the ant <em>Cataglyphis hispanica</em>. <span class="pub-journal">PCI Genomics</span>, 2(e40).</li>
-    <li>Leniaud L. (‡), <strong>Darras H.</strong> (‡), Boulay R., Aron S. 2012. Social hybridogenesis in the clonal ant <em>Cataglyphis hispanica</em>. <span class="pub-journal">Current Biology</span>, 22(13): 1188–1193.</li>
-  </ol>
-
-  <p class="muted">‡ equal contributions</p>
 </section>

@@ -74,7 +74,7 @@ permalink: /
 
 /* Journal style (same blue as old publications page) */
 .pub-journal {
-  color: #6768A3;
+  color: #2F3066;
   font-weight: 600;
   font-style: italic;
 }

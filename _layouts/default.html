@@ -24,7 +24,11 @@
     <header>
       <div class="wrap">
         <div class="nav">
-          <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+<a class="brand" href="{{ '/' | relative_url }}">
+  <img src="{{ '/assets/images/Header-logo.png' | relative_url }}"
+       alt="Darras Lab"
+       class="site-logo">
+</a>
           <nav class="menu">
             <a href="{{ '/' | relative_url }}">Darras Lab</a>
             <a href="{{ '/publications/' | relative_url }}">Publications</a>

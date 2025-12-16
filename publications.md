@@ -23,6 +23,7 @@ permalink: /publications/
 }
 </style>
 
+<div class="lab-text">
 <ol class="pubs">
   <li><strong>Darras H.</strong>, Pan Q. 2024. Clonal ants reveal a potentially hidden meiotic feature. <span class="pub-journal">Trends in Genetics</span>, 40(11).</li>
 
@@ -60,5 +61,6 @@ permalink: /publications/
 
   <li>Leniaud L. (‡), <strong>Darras H.</strong> (‡), Boulay R., Aron S. 2012. Social hybridogenesis in the clonal ant <em>Cataglyphis hispanica</em>. <span class="pub-journal">Current Biology</span>, 22(13): 1188–1193.</li>
 </ol>
+</div>
 
 <p class="muted">‡ equal contributions</p>

@@ -75,7 +75,7 @@ permalink: /
 
 <section class="section">
 
-<h1>Darras Lab</h1>
+
 
 <style>
   .lab-text a {
@@ -88,70 +88,58 @@ permalink: /
   }
 </style>
 
-<p class="lab-text">
-We study the evolution of genomic conflicts in animals. Our lab is based at the
-<a href="https://evolution.zju.edu.cn/en/index.html">Centre for Evolutionary and Organismal Biology</a>
-at Zhejiang University.
-We collaborate extensively with the Pan Lab
-(<a href="https://www.phd.tuebingen.mpg.de/36499/Qiaowei-_Miya_-Pan">Insect sex determination and development</a>)
-at the Max Planck Institute for Biology, Tübingen, through shared resources and thesis co-supervision.
+<h2> Darras lab :: Evolution of genomic conflicts</h2>
+
+<p> A central challenge in evolutionary genomics and medicine is to identify genes involved in genomic conflicts. Such conflicts can arise at multiple biological levels, from genes and cells to individuals and societies, yet their long-term consequences remain poorly understood. Although many examples of conflict have been documented, we still know little about how they are distributed across genomes or how they shape genome architecture, partly because these conflicts are often transient and difficult to detect. </p> <p> Our research investigates the diversity of genomic conflicts, the biological innovations they generate, and their impact on genome evolution. We focus on early insect development, from gamete formation to early phenotypic differentiation, in species in which individuals develop as either reproductive queens or non-reproductive workers. In these systems, natural selection can favour selfish genetic variants that bias development toward a reproductive queen fate rather than a worker helper role. These dynamics have repeatedly led to the evolution of unusual genetic systems in which queen and worker development is no longer plastic but instead genetically determined. In several cases, this transition is associated with striking cellular mechanisms, including clonal inheritance of maternal or paternal genomes, or individuals with chimeric bodies composed of genetically distinct cell lineages. These systems offer rare and powerful natural experiments to uncover how genomic conflicts can reshape development and drive fundamental molecular and cellular innovations. </p>
+
+<p>  Our lab is based at the <a href="https://evolution.zju.edu.cn/en/index.html">Centre for Evolutionary and Organismal Biology</a>
+at Zhejiang University. We collaborate extensively with the Pan Lab (<a href="https://www.phd.tuebingen.mpg.de/36499/Qiaowei-_Miya_-Pan">Insect sex determination and development</a>) at the Max Planck Institute for Biology, Tübingen, through shared resources and thesis co-supervision.
 </p>
 
+<div class="research-images" style="display:flex; gap:2%; justify-content:center; margin-top:30px;">
+  <img src="{{ '/assets/images/6962841056_04bd7b4b6f_c.jpg' | relative_url }}" alt="Research image" style="width:21%; height:auto; object-fit:cover;">
+  <img src="{{ '/assets/images/14831812109_248e71f584_c.jpg' | relative_url }}" alt="Research image" style="width:21%; height:auto; object-fit:cover;">
+  <img src="{{ '/assets/images/7294863010_93d13923bb_c.jpg' | relative_url }}" alt="Research image" style="width:21%; height:auto; object-fit:cover;">
+  <img src="{{ '/assets/images/4837265100_7ff68cd6f6_c.jpg' | relative_url }}" alt="Research image" style="width:21%; height:auto; object-fit:cover;">
+</div>
 
-<h2>Evolution of genomic conflicts</h2> <p> A central challenge in evolutionary genomics and medicine is to identify genes involved in genomic conflicts. Such conflicts can arise at multiple biological levels, from genes and cells to individuals and societies, yet their long-term consequences remain poorly understood. Although many examples of conflict have been documented, we still know little about how they are distributed across genomes or how they shape genome architecture, partly because these conflicts are often transient and difficult to detect. </p> <p> Our research investigates the diversity of genomic conflicts, the biological innovations they generate, and their impact on genome evolution. We focus on early development in insects, from gamete formation to early phenotypic differentiation, in species where individuals develop either as reproductive queens or as non-reproductive workers. In these systems, natural selection can favour selfish genetic variants that bias development toward a reproductive queen fate rather than a worker helper role. These dynamics have repeatedly led to the evolution of unusual genetic systems in which queen and worker development is no longer plastic but instead genetically determined. In several cases, this transition is associated with striking cellular mechanisms, including clonal inheritance of maternal or paternal genomes, or individuals with chimeric bodies composed of genetically distinct cell lineages. These systems offer rare and powerful natural experiments to uncover how genomic conflicts can reshape development and drive fundamental molecular and cellular innovations. </p>
-
-
-  <div class="research-images">
-    <img src="{{ '/assets/images/6962841056_04bd7b4b6f_c.jpg' | relative_url }}" alt="Research image">
-    <img src="{{ '/assets/images/14831812109_248e71f584_c.jpg' | relative_url }}" alt="Research image">
-    <img src="{{ '/assets/images/7294863010_93d13923bb_c.jpg' | relative_url }}" alt="Research image">
-    <img src="{{ '/assets/images/4837265100_7ff68cd6f6_c.jpg' | relative_url }}" alt="Research image">
-  </div>
-
-  <div class="team-banner">
-    <p><a href="{{ '/publications/' | relative_url }}">See Darras Lab publications →</a></p>
-  </div>
 </section>
 
 <section class="section" id="people">
   <h2>People</h2>
 
   <div class="people-grid">
-    <div class="person">
-      <img class="avatar" src="{{ '/assets/images/miya-pan.png' | relative_url }}" alt="Miya Pan">
-      <div class="name">Miya Pan</div>
-      <div class="role">Principal Investigator</div>
-      <div class="inst">IMB Mainz</div>
-      <div><a href="mailto:miya.pan@imb.de">miya.pan@imb.de</a></div>
-    </div>
-
-    <div class="person">
+      <div class="person">
       <img class="avatar" src="{{ '/assets/images/hugo-darras.png' | relative_url }}" alt="Hugo Darras">
       <div class="name">Hugo Darras</div>
       <div class="role">Principal Investigator</div>
-      <div class="inst">JGU Mainz</div>
-      <div><a href="mailto:hugo.darras@uni-mainz.de">hugo.darras@uni-mainz.de</a></div>
+      <div><a href="mailto:hdarras@zju.edu.cn">hdarras@zju.edu.cn</a></div>
     </div>
-
+    
+    <div class="person">
+      <img class="avatar" src="{{ '/assets/images/miya-pan.png' | relative_url }}" alt="Miya Pan">
+      <div class="name">Qiaowei (Miya) Pan</div>
+      <div class="role">Co-investigator</div>
+      <div><a href="mailto:qiaowei.pan@tuebingen.mpg.de">qiaowei.pan@tuebingen.mpg.de</a></div>
+    </div>
+    
     <div class="person">
       <img class="avatar" src="{{ '/assets/images/chuanxin.png' | relative_url }}" alt="Chuanxin Yu">
       <div class="name">Chuanxin Yu</div>
       <div class="role">PhD Student</div>
-      <div class="inst">JGU Mainz</div>
+      <div><a href="mailto:chuyu@uni-mainz.de">chuyu@uni-mainz.de</a></div>
     </div>
 
     <div class="person">
       <img class="avatar" src="{{ '/assets/images/lena.png' | relative_url }}" alt="Lena Fröhlich">
       <div class="name">Lena Fröhlich</div>
       <div class="role">MSc Student</div>
-      <div class="inst">JGU Mainz</div>
     </div>
 
     <div class="person">
       <img class="avatar" src="{{ '/assets/images/emilia.png' | relative_url }}" alt="Emilia María Romero Pineda">
       <div class="name">Emilia María Romero Pineda</div>
       <div class="role">MSc Student</div>
-      <div class="inst">JGU Mainz</div>
     </div>
   </div>
 </section>

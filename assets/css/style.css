@@ -1,3 +1,7 @@
+.lab-text {
+  max-width: 68ch;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;

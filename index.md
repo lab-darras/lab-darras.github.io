@@ -74,37 +74,19 @@ permalink: /
 </style>
 
 <section class="section">
-  <h1>Darras Lab</h1>
 
-  <h2>Evolution of genetic systems and genomic conflicts</h2>
+<h1>Darras Lab</h1>
 
-  <p class="lead">
-    Conflicts manifest at multiple biological levels, including genomes, cells, individuals,
-    and societies, yet their long-term consequences remain poorly understood. Although diverse
-    forms of conflict are increasingly documented, their genomic distribution and impact on
-    genome architecture remain largely unexplored, as many conflicts are transient and difficult
-    to study.
-  </p>
+<p>
+We study the evolution of genomic conflicts in animals. Our lab is based at the Centre for
+Evolutionary and Organismal Biology at Zhejiang University
+(<a href="https://evolution.zju.edu.cn/en/index.html">https://evolution.zju.edu.cn/en/index.html</a>).
+We collaborate extensively with the Pan Lab (Insect sex determination and development) at the
+Max Planck Institute for Biology, Tübingen, through shared resources and thesis co-supervision.
+</p>
 
-  <p>
-    Our goal is to investigate the diversity of genomic conflicts, the molecular innovations
-    they generate, and their effects on genome evolution. We study conflicts in ant societies,
-    where reproduction is unequally distributed between queens and workers. This division of
-    labor has repeatedly produced extraordinary genetic systems, in which selfish lineages
-    drive their carriers to develop as reproductive queens, while the worker caste arises only
-    through hybridization with another lineage.
-  </p>
+<h2>Evolution of genomic conflicts</h2> <p> A central challenge in evolutionary genomics and medicine is to identify genes involved in genomic conflicts. Such conflicts can arise at multiple biological levels, from genes and cells to individuals and societies, yet their long-term consequences remain poorly understood. Although many examples of conflict have been documented, we still know little about how they are distributed across genomes or how they shape genome architecture, partly because these conflicts are often transient and difficult to detect. </p> <p> Our research investigates the diversity of genomic conflicts, the biological innovations they generate, and their impact on genome evolution. We focus on early development in insects, from gamete formation to early phenotypic differentiation, in species where individuals develop either as reproductive queens or as non-reproductive workers. In these systems, natural selection can favour selfish genetic variants that bias development toward a reproductive queen fate rather than a worker helper role. These dynamics have repeatedly led to the evolution of unusual genetic systems in which queen and worker development is no longer plastic but instead genetically determined. In several cases, this transition is associated with striking cellular mechanisms, including clonal inheritance of maternal or paternal genomes, or individuals with chimeric bodies composed of genetically distinct cell lineages. These systems offer rare and powerful natural experiments to uncover how genomic conflicts can reshape development and drive fundamental molecular and cellular innovations. </p>
 
-  <p>
-    We investigate the mechanisms underlying these hybrid systems using population genomic and
-    molecular approaches, focusing on the ants <em>Paratrechina longicornis</em> and
-    <em>Wasmannia auropunctata</em>, where queens and males belong to divergent clonal lineages;
-    the ant <em>Anoplolepis gracilipes</em>, where males are chimeras carrying divergent genomes
-    in different cells of their body; and <em>Cataglyphis</em> ants, where two queen lineages
-    coexist within populations and must hybridize to produce workers. These unique systems
-    provide opportunities to study conflicts and investigate how they drive molecular and
-    cellular innovations.
-  </p>
 
   <div class="research-images">
     <img src="{{ '/assets/images/6962841056_04bd7b4b6f_c.jpg' | relative_url }}" alt="Research image">
@@ -139,4 +121,24 @@ permalink: /
     </div>
 
     <div class="person">
-      <img cl
+      <img class="avatar" src="{{ '/assets/images/chuanxin.png' | relative_url }}" alt="Chuanxin Yu">
+      <div class="name">Chuanxin Yu</div>
+      <div class="role">PhD Student</div>
+      <div class="inst">JGU Mainz</div>
+    </div>
+
+    <div class="person">
+      <img class="avatar" src="{{ '/assets/images/lena.png' | relative_url }}" alt="Lena Fröhlich">
+      <div class="name">Lena Fröhlich</div>
+      <div class="role">MSc Student</div>
+      <div class="inst">JGU Mainz</div>
+    </div>
+
+    <div class="person">
+      <img class="avatar" src="{{ '/assets/images/emilia.png' | relative_url }}" alt="Emilia María Romero Pineda">
+      <div class="name">Emilia María Romero Pineda</div>
+      <div class="role">MSc Student</div>
+      <div class="inst">JGU Mainz</div>
+    </div>
+  </div>
+</section>

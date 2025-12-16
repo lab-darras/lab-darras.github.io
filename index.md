@@ -98,7 +98,7 @@ permalink: /
 <p> A central challenge in evolutionary genomics and medicine is to identify genes involved in genomic conflicts. Such conflicts can arise at multiple biological levels, from genes and cells to individuals and societies, yet their long-term consequences remain poorly understood. Although many examples of conflict have been documented, we still know little about how they are distributed across genomes or how they shape genome architecture, partly because these conflicts are often transient and difficult to detect. </p> <p> Our research investigates the diversity of genomic conflicts, the biological innovations they generate, and their impact on genome evolution. We focus on early insect development, from gamete formation to early phenotypic differentiation, in species in which individuals develop as either reproductive queens or non-reproductive workers. In these systems, natural selection can favour selfish genetic variants that bias development toward a reproductive queen fate rather than a worker helper role. These dynamics have repeatedly led to the evolution of unusual genetic systems in which queen and worker development is no longer plastic but instead genetically determined. In several cases, this transition is associated with striking cellular mechanisms, including clonal inheritance of maternal or paternal genomes, or individuals with chimeric bodies composed of genetically distinct cell lineages. These systems offer rare and powerful natural experiments to uncover how genomic conflicts can reshape development and drive fundamental molecular and cellular innovations. </p>
 
 <p>  Our lab is based at the <a href="https://evolution.zju.edu.cn/en/index.html">Centre for Evolutionary and Organismal Biology</a>
-at Zhejiang University. We collaborate extensively with the Pan Lab (<a href="https://www.phd.tuebingen.mpg.de/36499/Qiaowei-_Miya_-Pan">Insect sex determination and development</a>) at the Max Planck Institute for Biology, Tübingen, through shared resources and thesis co-supervision.
+at Zhejiang University. We collaborate extensively with the Pan Lab (<a href="https://www.phd.tuebingen.mpg.de/36499/Qiaowei-_Miya_-Pan">Insect sex determination and development</a>) at the Max Planck Institute for Biology, Tübingen, through shared resources and projects.
 </p>
 
 <div class="research-images" style="display:flex; gap:2%; justify-content:center; margin-top:30px;">
@@ -140,10 +140,5 @@ at Zhejiang University. We collaborate extensively with the Pan Lab (<a href="ht
       <div class="role">MSc Student</div>
     </div>
 
-    <div class="person">
-      <img class="avatar" src="{{ '/assets/images/emilia.png' | relative_url }}" alt="Emilia Romero Pineda">
-      <div class="name">Emilia María Romero Pineda</div>
-      <div class="role">MSc Student</div>
-    </div>
   </div>
 </section>

@@ -8,7 +8,7 @@ permalink: /contact/
 <h2 style="margin-top:60px;">Positions available</h2>
 
 <p>
-We are recruiting at multiple levels, including research assistants, undergraduate students, and PhD candidates, with opportunities in both China and Germany.
+We are recruiting at multiple levels for BSc and MSc theses, PhD projects, and research assistant positions (bioinformatics, wet lab, and insect work), with opportunities in both China and Germany.
 </p>
 
 <p>

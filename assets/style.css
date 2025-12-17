@@ -164,3 +164,10 @@ hr {
   margin-bottom: 0;
 }
 
+.page-title{
+  margin-bottom:8px; /* was 14px */
+}
+
+.page-content > h2:first-child{
+  margin-top:8px; /* increase/decrease to taste */
+}

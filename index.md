@@ -105,8 +105,6 @@ at Zhejiang University. We collaborate extensively with the Pan Lab (<a href="ht
 
 <div style="height:60px;"></div>
 
-  <h2>People</h2>
-
   <div class="people-grid">
       <div class="person">
       <img class="avatar" src="{{ '/assets/images/hugo-darras.png' | relative_url }}" alt="Hugo Darras">

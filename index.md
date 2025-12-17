@@ -96,7 +96,7 @@ at Zhejiang University. We collaborate extensively with the Pan Lab (<a href="ht
 </p>
 </div>
 
-<div style="height:60px;"></div>
+<div style="height:40px;"></div>
 
   <div class="people-grid">
       <div class="person">
@@ -128,7 +128,7 @@ at Zhejiang University. We collaborate extensively with the Pan Lab (<a href="ht
 
   </div>
 
-  <div class="research-images" style="display:flex; gap:2%; justify-content:center; margin-top:50px;">
+  <div class="research-images" style="display:flex; gap:2%; justify-content:center; margin-top:70px;">
   <img src="{{ '/assets/images/6962841056_04bd7b4b6f_c.jpg' | relative_url }}" alt="Research image" style="width:21%; height:auto; object-fit:cover;">
   <img src="{{ '/assets/images/14831812109_248e71f584_c.jpg' | relative_url }}" alt="Research image" style="width:21%; height:auto; object-fit:cover;">
   <img src="{{ '/assets/images/7294863010_93d13923bb_c.jpg' | relative_url }}" alt="Research image" style="width:21%; height:auto; object-fit:cover;">

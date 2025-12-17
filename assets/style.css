@@ -129,6 +129,21 @@ hr {
   margin: 22px 0;
 }
 
+.wechat-qr {
+  margin-top: 18px;
+}
+
+.wechat-qr img {
+  width: 140px;
+  height: auto;
+  display: block;
+}
+
+.wechat-caption {
+  margin-top: 4px;
+  font-size: 13px;
+  color: var(--muted);
+}
 .site-footer {
   padding: 26px 0 44px;
   color: var(--muted);

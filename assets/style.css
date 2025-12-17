@@ -161,7 +161,6 @@ hr {
 .page-content p > strong {
   display: block;
   margin-top: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
-
 

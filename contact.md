@@ -6,17 +6,28 @@ permalink: /contact/
 
 <div style="height:36px;"></div>
 
-<p>
-<b>Hugo Darras</b><br>
-Zhejiang University<br>
-Centre for Evolutionary &amp; Organismal Biology<br>
-Hangzhou, China<br>
-<a href="mailto:hdarras@zju.edu.cn">hdarras@zju.edu.cn</a>
-</p>
+<div class="contact-layout">
 
-<div class="wechat-qr">
-  <img src="{{ '/assets/images/wechat.png' | relative_url }}" alt="WeChat QR code">
+  <div class="contact-left">
+    <p>
+      <b>Hugo Darras</b><br>
+      Zhejiang University<br>
+      Centre for Evolutionary &amp; Organismal Biology<br>
+      Hangzhou, China<br>
+      <a href="mailto:hdarras@zju.edu.cn">hdarras@zju.edu.cn</a>
+    </p>
+
+    <div class="wechat-qr">
+      <img src="{{ '/assets/images/wechat.png' | relative_url }}" alt="WeChat QR code">
+    </div>
+  </div>
+
+  <div class="contact-right">
+    <img src="{{ '/assets/images/building.jpg' | relative_url }}" alt="Zhejiang University building">
+  </div>
+
 </div>
+
 
 <div style="height:26px;"></div>
 

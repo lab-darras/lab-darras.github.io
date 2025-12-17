@@ -154,5 +154,9 @@ hr {
 
 .logo-secondary { height: 80px; width: auto; display: block; }
 
+.page-content > h2:first-child {
+  margin-top: 6px;
+}
+
 
 

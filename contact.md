@@ -17,6 +17,7 @@ Hangzhou, China<br>
   <img src="{{ '/assets/images/wechat.png' | relative_url }}" alt="WeChat QR code">
 </div>
 
+<div style="height:26px;"></div>
 <p> We are recruiting at multiple levels for BSc and MSc theses, PhD projects, and research assistant positions (bioinformatics, wet lab, and insect work), with opportunities in both China and Germany. For positions based at the Max Planck Institute in Germany, or for projects related to sex determination, please include Dr. Pan in copy: <a href="mailto:qiaowei.pan@tuebingen.mpg.de">qiaowei.pan@tuebingen.mpg.de</a>. </p>
-
+</div>
 </div>

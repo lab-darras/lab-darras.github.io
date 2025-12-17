@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Darras Lab
+title: Darras Lab :: Evolution of genomic conflicts
 permalink: /
 ---
 
@@ -88,7 +88,6 @@ permalink: /
 </style>
 
 <div class="lab-text">
-<h2> Evolution of genomic conflicts</h2>
 
 <p> A central challenge in evolutionary genomics and medicine is to identify genes involved in genomic conflicts. Such conflicts can arise at multiple biological levels, from genes and cells to individuals and societies, yet their long-term consequences remain poorly understood. Although many examples of conflict have been documented, we still know little about how they are distributed across genomes or how they shape genome architecture, partly because these conflicts are often transient and difficult to detect. </p> <p> Our research investigates the diversity of genomic conflicts, the biological innovations they generate, and their impact on genome evolution. We focus on early insect development, from gamete formation to early phenotypic differentiation, in species in which individuals develop as either reproductive queens or non-reproductive workers. In these systems, natural selection can favour selfish genetic variants that bias development toward a reproductive queen fate rather than a worker helper role. These dynamics have repeatedly led to the evolution of unusual genetic systems in which queen and worker development is no longer plastic but instead genetically determined. In several cases, this transition is associated with striking cellular mechanisms, including clonal inheritance of maternal or paternal genomes, or individuals with chimeric bodies composed of genetically distinct cell lineages. These systems offer rare and powerful natural experiments to uncover how genomic conflicts can reshape development and drive fundamental molecular and cellular innovations. </p>
 

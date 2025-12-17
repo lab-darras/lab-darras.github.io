@@ -20,8 +20,12 @@
   <body>
     <header class="site-header">
       <div class="container">
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-
+<div class="site-brand">
+  <a href="{{ '/' | relative_url }}" class="logo-link">
+    <img src="{{ '/assets/images/Header-logo.png' | relative_url }}" alt="Darras Lab logo" class="logo-main">
+    <img src="{{ '/assets/images/SECOND-logo.png' | relative_url }}" alt="Affiliation logo" class="logo-secondary">
+  </a>
+</div>
         <nav class="site-nav">
           <a href="{{ '/' | relative_url }}">Home</a>
           <a href="{{ '/publications/' | relative_url }}">Publications</a>

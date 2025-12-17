@@ -45,10 +45,10 @@ body {
 
 .site-header .container {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
-  gap: 16px;
-  padding: 16px 0;
+  gap: 20px;
+  padding: 14px 0;
 }
 
 .site-title {

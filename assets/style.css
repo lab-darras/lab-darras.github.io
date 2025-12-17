@@ -188,29 +188,27 @@ hr {
 
 /* Contact page layout (photo + details) */
 .contact-layout{
-  display:flex;
-  gap:60px;
-  align-items:flex-start;
-  margin-bottom:26px;
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+  margin-bottom: 26px;
+}
+
+.contact-left{
+  flex: 1 1 0;
+  min-width: 320px;
 }
 
 .contact-right{
   flex: 0 0 360px;
 }
 
-.contact-right {
-  flex: 0 0 420px;
-  display: flex;
-  justify-content: flex-end; /* RIGHT justify */
-}
-
 .contact-right img{
-  display:block;
-  width:100%;
-  max-width:none;      /* remove the cap that keeps it small */
-  height:auto;
-  border-radius:0;     /* no rounded corners */
-  opacity:1;
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  opacity: 1;
 }
 
 /* Responsive */

@@ -5,15 +5,13 @@ permalink: /contact/
 ---
 
 <div class="lab-text">
-
 <p>
-<strong>Hugo Darras</strong><br>
+<b>Hugo Darras</b><br>
 Zhejiang University<br>
 Centre for Evolutionary &amp; Organismal Biology<br>
 Hangzhou, China<br>
 <a href="mailto:hdarras@zju.edu.cn">hdarras@zju.edu.cn</a>
 </p>
-
 
 <div class="wechat-qr">
   <img src="{{ '/assets/images/wechat.png' | relative_url }}" alt="WeChat QR code">

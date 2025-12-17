@@ -152,8 +152,7 @@ hr {
   display: block;
 }
 
-.logo-secondary {
-  height: 92px;
-}
+.logo-secondary { height: 80px; width: auto; display: block; }
+
 
 

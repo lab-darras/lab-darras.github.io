@@ -210,4 +210,13 @@ hr {
   border-radius: 10px;
   opacity: 0.95;
 }
+@media (max-width: 720px) {
+  .contact-layout {
+    flex-direction: column;
+  }
+
+  .contact-right img {
+    max-width: 100%;
+  }
+}
 

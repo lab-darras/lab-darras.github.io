@@ -189,8 +189,8 @@ hr {
 /* Contact page layout (photo + details) */
 .contact-layout{
   display: flex;
-  gap: 48px;
   align-items: flex-start;
+  gap: 72px;              /* more space between text and image */
   margin-bottom: 26px;
 }
 
@@ -200,7 +200,7 @@ hr {
 }
 
 .contact-right{
-  flex: 0 0 360px;
+  flex: 0 0 520px;        /* wider image column -> image shifts left */
 }
 
 .contact-right img{
@@ -210,6 +210,7 @@ hr {
   border-radius: 0;
   opacity: 1;
 }
+
 
 /* Responsive */
 @media (max-width: 720px){

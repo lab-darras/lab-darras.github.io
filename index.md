@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Darras Lab :: Evolution of genomic conflicts
+title: Darras Lab - Evolution of genomic conflicts
 permalink: /
 ---
 

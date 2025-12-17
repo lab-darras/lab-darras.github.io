@@ -1,3 +1,7 @@
 theme: jekyll-theme-cayman
 title: "Darras Lab"
 description: "Haplodiploidy and Genetic systems"
+
+
+url: "https://lab-darras.github.io"
+baseurl: ""

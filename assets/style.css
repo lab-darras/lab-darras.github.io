@@ -186,3 +186,28 @@ hr {
 .page-content > h2:first-child{
   margin-top:8px; /* increase/decrease to taste */
 }
+
+/* Contact page layout (photo + details) */
+.contact-layout {
+  display: flex;
+  gap: 36px;
+  align-items: flex-start;
+  margin-bottom: 26px;
+}
+
+.contact-left {
+  flex: 0 0 auto;
+}
+
+.contact-right {
+  flex: 0 0 auto;
+}
+
+.contact-right img {
+  width: 100%;
+  max-width: 300px;  /* controls the photo size */
+  height: auto;
+  border-radius: 10px;
+  opacity: 0.95;
+}
+

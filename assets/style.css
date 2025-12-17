@@ -203,13 +203,14 @@ hr {
   flex: 0 0 auto;
 }
 
-.contact-right img {
-  width: 100%;
-  max-width: 300px;  /* controls the photo size */
-  height: auto;
-  border-radius: 10px;
-  opacity: 0.95;
+.contact-right img{
+  width:100%;
+  max-width:540px; /* ~80% bigger than 300px */
+  height:auto;
+  border-radius:0;
+  opacity:0.95;
 }
+
 @media (max-width: 720px) {
   .contact-layout {
     flex-direction: column;

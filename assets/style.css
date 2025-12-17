@@ -92,13 +92,13 @@ body {
   margin-top: 24px;
 }
 
-.page-title {
+.page-title{
   font-family: var(--serif);
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 1.15;
-  margin: 0 0 14px;
-  letter-spacing: 0.2px;
+  font-weight:700;
+  font-size:30px;
+  line-height:1.15;
+  margin:20px 0 8px; /* more above, less below */
+  letter-spacing:0.2px;
 }
 
 .page-content p { margin: 0 0 14px; }

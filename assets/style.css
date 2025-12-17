@@ -198,9 +198,10 @@ hr {
   flex:1 1 0;          /* let text take remaining space */
   min-width:320px;
 }
-
-.contact-right{
-  flex:0 0 420px;      /* make the photo column wider */
+.contact-right {
+  flex: 0 0 420px;
+  display: flex;
+  justify-content: flex-end; /* RIGHT justify */
 }
 
 .contact-right img{

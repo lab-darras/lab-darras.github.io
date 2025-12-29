@@ -32,5 +32,5 @@ permalink: /contact/
 <div style="height:26px;"></div>
 
 <p>
-We are recruiting at multiple levels for BSc and MSc theses, PhD projects, and research assistant positions (bioinformatics, wet lab, and insect work).>.
+We are recruiting at multiple levels for BSc and MSc theses, PhD projects, and research assistant positions (bioinformatics, wet lab, and insect work).
 </p>

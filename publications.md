@@ -26,7 +26,7 @@ permalink: /publications/
 <div class="lab-text">
 <ol class="pubs">
 
-  <li>Chuanxin Y., Hodapp D., Moog S., Dupont S., Darrouzet E., Keller Valsecchi C.E., Colgan T.J , Pan Q (‡), <strong>Darras H.</strong> (‡). In press. Deep evolutionary conservation of a sex-determining locus without sequence homology. <span class="pub-journal">PNAS</span>.</li>
+  <li>Chuanxin Y., Hodapp D., Moog S., Dupont S., Darrouzet E., Keller Valsecchi C.E., Colgan T.J , Pan Q (‡), <strong>Darras H.</strong> (‡). 2026. Deep evolutionary conservation of a sex-determining locus without sequence homology. <span class="pub-journal">PNAS</span>, 123 (2).</li>
  
   <li><strong>Darras H.</strong>, Pan Q. 2024. Clonal ants reveal a potentially hidden meiotic feature. <span class="pub-journal">Trends in Genetics</span>, 40(11).</li>
 

@@ -121,7 +121,7 @@ permalink: /
   <div class="person">
     <img class="avatar" src="{{ '/assets/images/field-expert.png' | relative_url }}" alt="Field Expert">
     <div class="name">Xu Kun</div>
-    <div class="role">Field manager</div>
+    <div class="role">Insect technician</div>
   </div>
 
   <div class="person">

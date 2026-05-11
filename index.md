@@ -101,51 +101,55 @@ permalink: /
 
 </div>
 
-
 <div style="height:40px;"></div>
 
-  <div class="people-grid">
-      <div class="person">
-      <img class="avatar" src="{{ '/assets/images/hugo-darras.png' | relative_url }}" alt="Hugo Darras">
-      <div class="name">Hugo Darras</div>
-      <div class="role">Principal Investigator</div>
-      <div><a href="mailto:hdarras@zju.edu.cn">hdarras@zju.edu.cn</a></div>
-    </div>
+<div class="people-grid">
 
-  <div class="people-grid">
-      <div class="person">
-      <img class="avatar" src="{{ '/assets/images/min-liu.png' | relative_url }}" alt="Min Liu">
-      <div class="name">Min Liu</div>
-      <div class="role">Lab Manager</div>
-    </div>
-
-  <div class="people-grid">
-      <div class="person">
-      <img class="avatar" src="{{ '/assets/images/field-expert.png' | relative_url }}" alt="Field Expert">
-      <div class="name">Xu Kun</div>
-      <div class="role">Field specialist</div>
-    </div>
-  
-    <div class="person">
-      <img class="avatar" src="{{ '/assets/images/miya-pan.png' | relative_url }}" alt="Miya Pan">
-      <div class="name">Qiaowei (Miya) Pan</div>
-      <div class="role">Visiting collaborator</div>
-      <div><a href="mailto:qiaowei.pan@tuebingen.mpg.de">qiaowei.pan@tuebingen.mpg.de</a></div>
-    </div>
-        
-    <div class="person">
-      <img class="avatar" src="{{ '/assets/images/chuanxin.png' | relative_url }}" alt="Chuanxin Yu">
-      <div class="name">Chuanxin Yu</div>
-      <div class="role">PhD Student</div>
-    </div>
-
-    <div class="person">
-      <img class="avatar" src="{{ '/assets/images/lena.png' | relative_url }}" alt="Lena Fröhlich">
-      <div class="name">Lena Fröhlich</div>
-      <div class="role">MSc Student</div>
-    </div>
-
+  <div class="person">
+    <img class="avatar" src="{{ '/assets/images/hugo-darras.png' | relative_url }}" alt="Hugo Darras">
+    <div class="name">Hugo Darras</div>
+    <div class="role">Principal Investigator</div>
+    <div><a href="mailto:hdarras@zju.edu.cn">hdarras@zju.edu.cn</a></div>
   </div>
+
+  <div class="person">
+    <img class="avatar" src="{{ '/assets/images/min-liu.png' | relative_url }}" alt="Min Liu">
+    <div class="name">Min Liu</div>
+    <div class="role">Lab Manager</div>
+  </div>
+
+  <div class="person">
+    <img class="avatar" src="{{ '/assets/images/field-expert.png' | relative_url }}" alt="Field Expert">
+    <div class="name">Xu Kun</div>
+    <div class="role">Field specialist</div>
+  </div>
+
+  <div class="person">
+    <img class="avatar" src="{{ '/assets/images/miya-pan.png' | relative_url }}" alt="Miya Pan">
+    <div class="name">Qiaowei (Miya) Pan</div>
+    <div class="role">Visiting collaborator</div>
+    <div><a href="mailto:qiaowei.pan@tuebingen.mpg.de">qiaowei.pan@tuebingen.mpg.de</a></div>
+  </div>
+
+  <div class="person">
+    <img class="avatar" src="{{ '/assets/images/chuanxin.png' | relative_url }}" alt="Chuanxin Yu">
+    <div class="name">Chuanxin Yu</div>
+    <div class="role">PhD Student</div>
+  </div>
+
+  <div class="person">
+    <img class="avatar" src="{{ '/assets/images/lena.png' | relative_url }}" alt="Lena Fröhlich">
+    <div class="name">Lena Fröhlich</div>
+    <div class="role">MSc Student</div>
+  </div>
+
+  <div class="person">
+    <img class="avatar" src="{{ '/assets/images/federico-lopez.png' | relative_url }}" alt="Federico Lopez Osorio">
+    <div class="name">Federico Lopez Osorio</div>
+    <div class="role">Postdoc</div>
+  </div>
+
+</div>
 
   <div class="research-images" style="display:flex; gap:2%; justify-content:center; margin-top:70px;">
   <img src="{{ '/assets/images/6962841056_04bd7b4b6f_c.jpg' | relative_url }}" alt="Research image" style="width:21%; height:auto; object-fit:cover;">

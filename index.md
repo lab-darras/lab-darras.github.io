@@ -133,7 +133,7 @@ permalink: /
   <div class="person">
     <img class="avatar" src="{{ '/assets/images/miya-pan.png' | relative_url }}" alt="Miya Pan">
     <div class="name">Qiaowei (Miya) Pan</div>
-    <div class="role">Visiting Collaborator (PI at Max Planck)</div>
+    <div class="role">Visiting collaborator</div>
   </div>
 
   <div class="person">

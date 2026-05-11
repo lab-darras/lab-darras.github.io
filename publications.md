@@ -26,13 +26,17 @@ permalink: /publications/
 <div class="lab-text">
 <ol class="pubs">
 
-  <li>Yu C., Hodapp D., Moog S., Dupont S., Darrouzet E., Keller Valsecchi C.E., Colgan T.J , Pan Q (‡), <strong>Darras H.</strong> (‡). 2026. Deep evolutionary conservation of a sex-determining locus without sequence homology. <span class="pub-journal">PNAS</span>, 123 (2).</li>
+<li><strong>Yu C.</strong>, Hodapp D., Moog S., Dupont S., Darrouzet E., Keller Valsecchi C.E., Colgan T.J., Pan Q. (‡), <strong>Darras H.</strong> (‡). 2026. Deep evolutionary conservation of a sex-determining locus without sequence homology. <span class="pub-journal">PNAS</span>, 123 (2).</li>
+
+<li><strong>Darras H., Yu C.</strong>, Kever M., Stoldt M., Feldmeyer B., Foitzik S. 2026. Sequential origin of an alternative colony founding strategy driven by two supergenes in Temnothorax ants. <span class="pub-journal">Molecular Biology and Evolution</span>, msag115.</li>
+
+<li>Lenhart A., <strong>Darras H.</strong>, Foitzik S. 2026. Absence of supergene-linked determination of wing polymorphism and alternative reproductive strategies in the ant Hypoponera opacior. <span class="pub-journal">Biology Letters</span>, 22 (4): 20260070.</li>
 
 <li>Blasi G., <strong>Darras H.</strong>, Foitzik S. 2026. DNA methylation reflects tissue and caste identity but not parasitism-induced changes in a social insect. <span class="pub-journal">Proceedings of the Royal Society B</span>, 293 (20252483).</li>
 
-  <li>Sistermans T., <strong>Darras H.</strong>, Ronget V., Beros S., Hartke J., Stoldt M., Libbrecht R., Kokko H., Foitzik F. 2025. Parasite prevalence in a social host has colony-wide impacts on transcriptional activity and survival. <span class="pub-journal">Evolution</span>, 79 (9).</li>
+ <li>Sistermans T., <strong>Darras H.</strong>, Ronget V., Beros S., Hartke J., Stoldt M., Libbrecht R., Kokko H., Foitzik F. 2025. Parasite prevalence in a social host has colony-wide impacts on transcriptional activity and survival. <span class="pub-journal">Evolution</span>, 79 (9).</li>
  
-   <li><strong>Darras H.</strong>, Pan Q. 2024. Clonal ants reveal a potentially hidden meiotic feature. <span class="pub-journal">Trends in Genetics</span>, 40(11).</li>
+<li><strong>Darras H.</strong>, Pan Q. 2024. Clonal ants reveal a potentially hidden meiotic feature. <span class="pub-journal">Trends in Genetics</span>, 40(11).</li>
 
   <li>Pan Q. (‡), <strong>Darras H.</strong> (‡), Keller L. 2024. LncRNA gene ANTSR coordinates complementary sex determination in the Argentine ant. <span class="pub-journal">Science Advances</span>, 10(22).</li>
 

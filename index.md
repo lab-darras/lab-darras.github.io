@@ -115,20 +115,25 @@ permalink: /
   <div class="person">
     <img class="avatar" src="{{ '/assets/images/min-liu.png' | relative_url }}" alt="Min Liu">
     <div class="name">Min Liu</div>
-    <div class="role">Lab Manager</div>
+    <div class="role">Lab manager</div>
   </div>
 
   <div class="person">
     <img class="avatar" src="{{ '/assets/images/field-expert.png' | relative_url }}" alt="Field Expert">
     <div class="name">Xu Kun</div>
-    <div class="role">Field specialist</div>
+    <div class="role">Field manager</div>
+  </div>
+
+  <div class="person">
+    <img class="avatar" src="{{ '/assets/images/federico-lopez.png' | relative_url }}" alt="Federico Lopez Osorio">
+    <div class="name">Federico Lopez Osorio</div>
+    <div class="role">Postdoc</div>
   </div>
 
   <div class="person">
     <img class="avatar" src="{{ '/assets/images/miya-pan.png' | relative_url }}" alt="Miya Pan">
     <div class="name">Qiaowei (Miya) Pan</div>
-    <div class="role">Visiting collaborator</div>
-    <div><a href="mailto:qiaowei.pan@tuebingen.mpg.de">qiaowei.pan@tuebingen.mpg.de</a></div>
+    <div class="role">Senior collaborator</div>
   </div>
 
   <div class="person">
@@ -141,12 +146,6 @@ permalink: /
     <img class="avatar" src="{{ '/assets/images/lena.png' | relative_url }}" alt="Lena Fröhlich">
     <div class="name">Lena Fröhlich</div>
     <div class="role">MSc Student</div>
-  </div>
-
-  <div class="person">
-    <img class="avatar" src="{{ '/assets/images/federico-lopez.png' | relative_url }}" alt="Federico Lopez Osorio">
-    <div class="name">Federico Lopez Osorio</div>
-    <div class="role">Postdoc</div>
   </div>
 
 </div>

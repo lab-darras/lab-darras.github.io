@@ -32,6 +32,8 @@ permalink: /publications/
 
 <li>Lenhart A., <strong>Darras H.</strong>, Foitzik S. 2026. Absence of supergene-linked determination of wing polymorphism and alternative reproductive strategies in the ant Hypoponera opacior. <span class="pub-journal">Biology Letters</span>, 22 (4): 20260070.</li>
 
+<li>Blasi G., Schwolow K., <strong>Darras H.</strong>, Foitzik S. 2026. Cestode infection is linked to transcriptional shifts in neuropeptide signalling and caste-specific ageing pathways in a social insect. <span class="pub-journal">BMC Genomics</span>, 27 (547).</li>
+
 <li>Blasi G., <strong>Darras H.</strong>, Foitzik S. 2026. DNA methylation reflects tissue and caste identity but not parasitism-induced changes in a social insect. <span class="pub-journal">Proceedings of the Royal Society B</span>, 293 (20252483).</li>
 
  <li>Sistermans T., <strong>Darras H.</strong>, Ronget V., Beros S., Hartke J., Stoldt M., Libbrecht R., Kokko H., Foitzik F. 2025. Parasite prevalence in a social host has colony-wide impacts on transcriptional activity and survival. <span class="pub-journal">Evolution</span>, 79 (9).</li>

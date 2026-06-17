@@ -119,7 +119,7 @@ permalink: /
   </div>
 
  <div class="person">
-    <img class="avatar" src="{{ '/assets/images/dor.png' | relative_url }}" alt="Min Liu">
+    <img class="avatar" src="{{ '/assets/images/dor.png' | relative_url }}" alt="Yueqing Huang">
     <div class="name">Yueqing Huang</div>
     <div class="role">Administrative assistant</div>
   </div>

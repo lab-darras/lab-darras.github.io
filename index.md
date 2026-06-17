@@ -120,7 +120,7 @@ permalink: /
 
  <div class="person">
     <img class="avatar" src="{{ '/assets/images/dor.png' | relative_url }}" alt="Min Liu">
-    <div class="name"Yueqing Huang</div>
+    <div class="name">Yueqing Huang</div>
     <div class="role">Administrative assistant</div>
   </div>
 
